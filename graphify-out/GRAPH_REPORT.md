@@ -1,17 +1,17 @@
 # Graph Report - Garuda_path  (2026-09-23)
 
 ## Corpus Check
-- 86 files · ~64,529 words
+- 137 files · ~78,998 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 21 file(s) not represented in the graph (top: (none) 11, .mdc 10)
+- Unclassified: 24 file(s) not represented in the graph (top: (none) 11, .mdc 10, .example 2)
 
 ## Summary
-- 1209 nodes · 1149 edges · 95 communities (89 shown, 6 thin omitted)
-- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
+- 1512 nodes · 1724 edges · 121 communities (109 shown, 12 thin omitted)
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 4 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `edf7204d`
+- Built from commit: `ca78061c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -94,7 +94,7 @@
 - Safety and Permissions
 - symlink-setup.sh
 - How Each IDE Loads Rules
-- Security Rules for AI-Generated Code
+- Common Vulnerabilities to Prevent
 - Frontend Package Rules
 - Testing Rules for AI-Generated Code
 - API Design Conventions for AI-Generated Code
@@ -110,21 +110,54 @@
 - Vibe Coding Rules in short
 - Garuda Path — Master Architectural Specification & Engineering Blueprint
 - Supabase Setup Guide for Garuda Path
+- frontend/src/types/index.ts
+- backend/package.json
+- frontend/package.json
+- cvrp-solver.ts
+- src/index.ts
+- compilerOptions
+- compilerOptions
+- db.ts
+- gemini.service.ts
+- backend/src/types/index.ts
+- auth.middleware.ts
+- Security Rules for AI-Generated Code
+- Input Validation and Sanitization
+- optimize.routes.ts
+- OrdersController
+- Core Principles
+- Status Codes
+- Request/Response Patterns
+- Core Security Principles
+- Secrets Management
+- Data Protection
+- Authentication and Authorization
+- FleetController
+- vite-env.d.ts
 
 ## God Nodes (most connected - your core abstractions)
 1. `Garuda Path — Master Architectural Specification & Engineering Blueprint` - 24 edges
-2. `FocusFlow - AI-Powered Productivity Platform` - 17 edges
-3. `[Project Name]` - 16 edges
-4. `Global AI Coding Rules for Agentic Coding` - 14 edges
-5. `Global AI Coding Rules for Agentic Coding` - 14 edges
-6. `5. Real-World Failure Scenarios & Solutions` - 13 edges
-7. `Vibe Coding AI Rules` - 13 edges
-8. `FocusFlow - AI-Powered Productivity Platform` - 13 edges
-9. `API Design Conventions for AI-Generated Code` - 12 edges
-10. `Error Handling Patterns for AI-Generated Code` - 12 edges
+2. `react` - 19 edges
+3. `useDispatch()` - 17 edges
+4. `FocusFlow - AI-Powered Productivity Platform` - 17 edges
+5. `express` - 16 edges
+6. `compilerOptions` - 16 edges
+7. `[Project Name]` - 16 edges
+8. `lucide-react` - 14 edges
+9. `Global AI Coding Rules for Agentic Coding` - 14 edges
+10. `Global AI Coding Rules for Agentic Coding` - 14 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `Props` --references--> `Order`  [EXTRACTED]
+  frontend/src/components/driver/DynamicUpiQrModal.tsx → frontend/src/types/index.ts
+- `Props` --references--> `Order`  [EXTRACTED]
+  frontend/src/components/driver/EpodVerificationModal.tsx → frontend/src/types/index.ts
+- `generateLegNavigationSteps()` --calls--> `estimateRoadDistanceKm()`  [EXTRACTED]
+  backend/src/services/navigation.service.ts → backend/src/services/mangalore-grid.ts
+- `DispatcherHeader()` --calls--> `useAuth()`  [EXTRACTED]
+  frontend/src/components/dashboard/DispatcherHeader.tsx → frontend/src/context/AuthContext.tsx
+- `DispatcherHeader()` --calls--> `useDispatch()`  [EXTRACTED]
+  frontend/src/components/dashboard/DispatcherHeader.tsx → frontend/src/context/DispatchContext.tsx
 
 ## Import Cycles
 - None detected.
@@ -133,7 +166,7 @@
 - **Fleet Management Entities** — garuda_memory_hub, garuda_memory_vehicle, garuda_memory_delivery_stop [EXTRACTED 0.90]
 - **Routing Optimization Flow** — garuda_memory_optimization_core, garuda_memory_mapbox_engine, garuda_memory_dynamic_events [EXTRACTED 0.95]
 
-## Communities (95 total, 6 thin omitted)
+## Communities (121 total, 12 thin omitted)
 
 ### Community 0 - "Optimization Core"
 Cohesion: 0.25
@@ -240,7 +273,7 @@ Cohesion: 0.17
 Nodes (11): Changes, Commits, Communication, Context Management, Dependency Governance, Environment, Industry Standards, Self-Review Before Commit (+3 more)
 
 ### Community 30 - "OpenAI Codex Configuration Guide"
-Cohesion: 0.17
+Cohesion: 0.18
 Nodes (11): Configuration, Cross-IDE Compatibility, Discovery Order, Examples, File Format, File Structure, Global Defaults, OpenAI Codex Configuration Guide (+3 more)
 
 ### Community 31 - "Continue.dev Configuration Guide"
@@ -260,7 +293,7 @@ Cohesion: 0.18
 Nodes (10): Cross-IDE Compatibility, File Format, Files, Global Rules, Hierarchy, Overview, Project Rules, Setup (+2 more)
 
 ### Community 35 - "Google Gemini CLI Configuration Guide"
-Cohesion: 0.22
+Cohesion: 0.20
 Nodes (9): Cross-IDE Compatibility, Discovery Order, Examples, File Format, Google Gemini CLI Configuration Guide, Hierarchy, Overview, Setup (+1 more)
 
 ### Community 36 - "FocusFlow - AI-Powered Productivity Platform"
@@ -427,9 +460,9 @@ Nodes (3): Operations Allowed Without Prompting, Operations That Require Approva
 Cohesion: 0.05
 Nodes (39): AI IDE Comparison: Rules & Configuration, Aider, By Project Complexity, Claude Code, Cline, Continue.dev, Cross-IDE Compatibility, Cursor (+31 more)
 
-### Community 78 - "Security Rules for AI-Generated Code"
-Cohesion: 0.06
-Nodes (33): 1. Trust Nothing, Verify Everything, 2. Defense in Depth, 3. Principle of Least Privilege, API Key Security, Audit Logging, Authentication and Authorization, Authentication Requirements, Authorization Patterns (+25 more)
+### Community 78 - "Common Vulnerabilities to Prevent"
+Cohesion: 0.29
+Nodes (7): Common Vulnerabilities to Prevent, CWE-190: Integer Overflow, CWE-306: Missing Authentication, CWE-434: Unrestricted File Upload, CWE-78: OS Command Injection, CWE-94: Code Injection, SSRF (Server-Side Request Forgery)
 
 ### Community 79 - "Frontend Package Rules"
 Cohesion: 0.06
@@ -440,8 +473,8 @@ Cohesion: 0.07
 Nodes (27): 1. Test Behavior, Not Implementation, 1. Test Interdependencies, 2. AI Code Needs More Testing, Not Less, 2. Hardcoded Test Data, 3. Testing Implementation Details, 3. Tests as Documentation, 4. Sleeping in Tests, Anti-Patterns to Avoid (+19 more)
 
 ### Community 81 - "API Design Conventions for AI-Generated Code"
-Cohesion: 0.08
-Nodes (24): 1. Consistency Over Creativity, 2. Client-First Design, 3. Backward Compatibility by Default, Anti-Patterns, API Design Conventions for AI-Generated Code, Authentication Patterns, Checklist for AI Agents, Client Errors (+16 more)
+Cohesion: 0.17
+Nodes (12): Anti-Patterns, API Design Conventions for AI-Generated Code, Authentication Patterns, Checklist for AI Agents, CORS Configuration, Documentation, Error Response Format (RFC 7807), HTTP Methods and Idempotency (+4 more)
 
 ### Community 82 - "Performance Rules for AI-Generated Code"
 Cohesion: 0.08
@@ -472,7 +505,7 @@ Cohesion: 0.20
 Nodes (9): 1. Think Before Coding, 2. Simplicity First, 3. Surgical Changes, 4. Goal-Driven Execution, 5. Quality Gates (Mandatory Verification), 6. Security & Data Protection, Core Rules & Principles, Reference Documentation (+1 more)
 
 ### Community 89 - "Claude Code Configuration Guide"
-Cohesion: 0.22
+Cohesion: 0.20
 Nodes (9): Claude Code Configuration Guide, Cross-IDE Compatibility, Examples, File Format, Hierarchy, Key Behavior, Overview, Setup (+1 more)
 
 ### Community 90 - "Vibe Coding Rules in short"
@@ -491,18 +524,98 @@ Nodes (36): 10. Database Schema (Production SQL for Supabase PostgreSQL), 11. Ro
 Cohesion: 0.33
 Nodes (5): Step 1: Open your Supabase Project, Step 2: Run the Schema Migration, Step 3: Run the Seed Data, Step 4: Configure Backend Environment Variables, Supabase Setup Guide for Garuda Path
 
+### Community 95 - "frontend/src/types/index.ts"
+Cohesion: 0.08
+Nodes (52): api, apiClient, App(), DispatcherHeader(), EsgCarbonTicker(), FleetDrawer(), GeminiAdvisorModal(), Props (+44 more)
+
+### Community 96 - "backend/package.json"
+Cohesion: 0.05
+Nodes (42): author, dependencies, bcryptjs, cors, dotenv, express, @google/genai, @google/generative-ai (+34 more)
+
+### Community 97 - "frontend/package.json"
+Cohesion: 0.05
+Nodes (41): dependencies, axios, clsx, lucide-react, mapbox-gl, react, react-dom, react-router-dom (+33 more)
+
+### Community 98 - "cvrp-solver.ts"
+Cohesion: 0.17
+Nodes (15): IncidentController, CvrpSolver, calculateHaversineDistanceKm(), Coordinate, estimateRoadDistanceKm(), estimateTravelTimeMins(), interpolateRoadCoordinates(), MANGALORE_DEPOT (+7 more)
+
+### Community 99 - "src/index.ts"
+Cohesion: 0.18
+Nodes (14): app, copilotChatSchema, createOrderSchema, loginUserSchema, registerUserSchema, simulateIncidentSchema, updateOrderStatusSchema, validateBody() (+6 more)
+
+### Community 100 - "compilerOptions"
+Cohesion: 0.11
+Nodes (17): compilerOptions, allowImportingTsExtensions, isolatedModules, jsx, lib, module, moduleResolution, noEmit (+9 more)
+
+### Community 101 - "compilerOptions"
+Cohesion: 0.13
+Nodes (14): compilerOptions, esModuleInterop, forceConsistentCasingInFileNames, lib, module, moduleResolution, outDir, resolveJsonModule (+6 more)
+
+### Community 102 - "db.ts"
+Cohesion: 0.45
+Nodes (5): dbStore, isSupabaseConnected, supabase, User, express
+
+### Community 103 - "gemini.service.ts"
+Cohesion: 0.20
+Nodes (7): GEMINI_MODEL, geminiClient, AiController, DisruptionAnalysisResult, GeminiService, dotenv, @google/genai
+
+### Community 104 - "backend/src/types/index.ts"
+Cohesion: 0.17
+Nodes (11): IncidentSeverity, IncidentType, OptimizationResult, OptimizedStop, OrderPriority, OrderStatus, PaymentMode, Role (+3 more)
+
+### Community 105 - "auth.middleware.ts"
+Cohesion: 0.25
+Nodes (5): AuthController, AuthenticatedRequest, authenticateJwt(), signJwtToken(), jsonwebtoken
+
+### Community 106 - "Security Rules for AI-Generated Code"
+Cohesion: 0.33
+Nodes (4): Rate Limiting, Security Checklist for AI Agents, Security Headers, Security Rules for AI-Generated Code
+
+### Community 107 - "Input Validation and Sanitization"
+Cohesion: 0.33
+Nodes (6): Command Injection Prevention, Common Validation Requirements, Input Validation and Sanitization, Required Validation Patterns, SQL Injection Prevention, XSS (Cross-Site Scripting) Prevention
+
+### Community 110 - "Core Principles"
+Cohesion: 0.50
+Nodes (4): 1. Consistency Over Creativity, 2. Client-First Design, 3. Backward Compatibility by Default, Core Principles
+
+### Community 111 - "Status Codes"
+Cohesion: 0.50
+Nodes (4): Client Errors, Server Errors, Status Codes, Success
+
+### Community 112 - "Request/Response Patterns"
+Cohesion: 0.50
+Nodes (4): Consistent Response Envelope, Filtering, Sorting, and Partial Responses, Pagination, Request/Response Patterns
+
+### Community 113 - "Core Security Principles"
+Cohesion: 0.50
+Nodes (4): 1. Trust Nothing, Verify Everything, 2. Defense in Depth, 3. Principle of Least Privilege, Core Security Principles
+
+### Community 114 - "Secrets Management"
+Cohesion: 0.50
+Nodes (4): API Key Security, Environment Variables, Secret Rotation, Secrets Management
+
+### Community 115 - "Data Protection"
+Cohesion: 0.50
+Nodes (4): Audit Logging, Data Protection, Encryption at Rest, GDPR Compliance
+
+### Community 116 - "Authentication and Authorization"
+Cohesion: 0.50
+Nodes (4): Authentication and Authorization, Authentication Requirements, Authorization Patterns, JWT Security
+
 ## Knowledge Gaps
-- **917 isolated node(s):** `symlink-setup.sh script`, `graphify`, `0. Operating Modes`, `1. Think Before Coding`, `2. Simplicity First` (+912 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 970 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **1043 isolated node(s):** `name`, `version`, `description`, `main`, `dev` (+1038 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 1109 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `API Design Conventions for AI-Generated Code` connect `API Design Conventions for AI-Generated Code` to `vibe-coding-ai-rules-main/README.md`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **What connects `symlink-setup.sh script`, `graphify`, `0. Operating Modes` to the rest of the system?**
-  _917 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Security Rules for AI-Generated Code` connect `Security Rules for AI-Generated Code` to `vibe-coding-ai-rules-main/README.md`?**
+  _High betweenness centrality (0.009) - this node is a cross-community bridge._
+- **What connects `name`, `version`, `description` to the rest of the system?**
+  _1043 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `5. Real-World Failure Scenarios & Solutions` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `[Project Name]` be split into smaller, more focused modules?**
