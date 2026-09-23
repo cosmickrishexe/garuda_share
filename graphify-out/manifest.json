@@ -526,5 +526,11 @@
     "seen": 1790144938.0294604,
     "ast_hash": "b2db82fb12a2be0f9ad681d58ebc57dd",
     "semantic_hash": ""
+  },
+  "backend/supabase/README.md": {
+    "mtime": 1790145082.1388273,
+    "seen": 1790145146.265351,
+    "ast_hash": "896bf1c8686c1b5ba6e2b678ccae7d33",
+    "semantic_hash": ""
   }
 }

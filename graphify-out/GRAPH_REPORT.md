@@ -1,17 +1,17 @@
 # Graph Report - Garuda_path  (2026-09-23)
 
 ## Corpus Check
-- 83 files · ~62,781 words
+- 86 files · ~64,529 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 21 file(s) not represented in the graph (top: (none) 11, .mdc 10)
 
 ## Summary
-- 1203 nodes · 1144 edges · 94 communities (88 shown, 6 thin omitted)
+- 1209 nodes · 1149 edges · 95 communities (89 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a068c7f1`
+- Built from commit: `edf7204d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -109,6 +109,7 @@
 - Vibe Coding Rules in short
 - Vibe Coding Rules in short
 - Garuda Path — Master Architectural Specification & Engineering Blueprint
+- Supabase Setup Guide for Garuda Path
 
 ## God Nodes (most connected - your core abstractions)
 1. `Garuda Path — Master Architectural Specification & Engineering Blueprint` - 24 edges
@@ -132,7 +133,7 @@
 - **Fleet Management Entities** — garuda_memory_hub, garuda_memory_vehicle, garuda_memory_delivery_stop [EXTRACTED 0.90]
 - **Routing Optimization Flow** — garuda_memory_optimization_core, garuda_memory_mapbox_engine, garuda_memory_dynamic_events [EXTRACTED 0.95]
 
-## Communities (94 total, 6 thin omitted)
+## Communities (95 total, 6 thin omitted)
 
 ### Community 0 - "Optimization Core"
 Cohesion: 0.25
@@ -486,9 +487,13 @@ Nodes (7): Additional Optimizations, Code Quality & Structure, Coding Workflow, 
 Cohesion: 0.05
 Nodes (36): 10. Database Schema (Production SQL for Supabase PostgreSQL), 11. Row Level Security (RLS) & Data Isolation Rules, 12. Backend API Routes, 13. Gemini SDK Setup & Server-Side Security, 14. AI System Prompt, 15.1. Disruption Impact & Dynamic Reroute Advisory, 15.2. Multimodal Doorstep ePOD Vision Inspector, 15. Detailed AI Prompts (With Required JSON Schemas) (+28 more)
 
+### Community 94 - "Supabase Setup Guide for Garuda Path"
+Cohesion: 0.33
+Nodes (5): Step 1: Open your Supabase Project, Step 2: Run the Schema Migration, Step 3: Run the Seed Data, Step 4: Configure Backend Environment Variables, Supabase Setup Guide for Garuda Path
+
 ## Knowledge Gaps
-- **913 isolated node(s):** `symlink-setup.sh script`, `graphify`, `0. Operating Modes`, `1. Think Before Coding`, `2. Simplicity First` (+908 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 965 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **917 isolated node(s):** `symlink-setup.sh script`, `graphify`, `0. Operating Modes`, `1. Think Before Coding`, `2. Simplicity First` (+912 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 970 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
@@ -496,10 +501,8 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `API Design Conventions for AI-Generated Code` connect `API Design Conventions for AI-Generated Code` to `vibe-coding-ai-rules-main/README.md`?**
   _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **Why does `Migration Guide: AI IDE Rule Configurations` connect `Migration Guide: AI IDE Rule Configurations` to `vibe-coding-ai-rules-main/README.md`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **What connects `symlink-setup.sh script`, `graphify`, `0. Operating Modes` to the rest of the system?**
-  _913 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _917 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `5. Real-World Failure Scenarios & Solutions` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `[Project Name]` be split into smaller, more focused modules?**
@@ -508,3 +511,5 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.06060606060606061 - nodes in this community are weakly interconnected._
 - **Should `Frontend Package Rules` be split into smaller, more focused modules?**
   _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
+- **Should `Testing Rules for AI-Generated Code` be split into smaller, more focused modules?**
+  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._

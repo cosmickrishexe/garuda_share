@@ -14400,6 +14400,78 @@
       "source_location": "L1"
     },
     {
+      "id": "backend_supabase_readme",
+      "label": "supabase/README.md",
+      "_origin": "ast",
+      "community": 94,
+      "community_name": "Supabase Setup Guide for Garuda Path",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "supabase/readme.md",
+      "source_file": "backend/supabase/README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_supabase_readme_step_1_open_your_supabase_project",
+      "label": "Step 1: Open your Supabase Project",
+      "_origin": "ast",
+      "community": 94,
+      "community_name": "Supabase Setup Guide for Garuda Path",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 1: open your supabase project",
+      "source_file": "backend/supabase/README.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "backend_supabase_readme_step_2_run_the_schema_migration",
+      "label": "Step 2: Run the Schema Migration",
+      "_origin": "ast",
+      "community": 94,
+      "community_name": "Supabase Setup Guide for Garuda Path",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 2: run the schema migration",
+      "source_file": "backend/supabase/README.md",
+      "source_location": "L9"
+    },
+    {
+      "id": "backend_supabase_readme_step_3_run_the_seed_data",
+      "label": "Step 3: Run the Seed Data",
+      "_origin": "ast",
+      "community": 94,
+      "community_name": "Supabase Setup Guide for Garuda Path",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 3: run the seed data",
+      "source_file": "backend/supabase/README.md",
+      "source_location": "L16"
+    },
+    {
+      "id": "backend_supabase_readme_step_4_configure_backend_environment_variables",
+      "label": "Step 4: Configure Backend Environment Variables",
+      "_origin": "ast",
+      "community": 94,
+      "community_name": "Supabase Setup Guide for Garuda Path",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "step 4: configure backend environment variables",
+      "source_file": "backend/supabase/README.md",
+      "source_location": "L22"
+    },
+    {
+      "id": "backend_supabase_readme_supabase_setup_guide_for_garuda_path",
+      "label": "Supabase Setup Guide for Garuda Path",
+      "_origin": "ast",
+      "community": 94,
+      "community_name": "Supabase Setup Guide for Garuda Path",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "supabase setup guide for garuda path",
+      "source_file": "backend/supabase/README.md",
+      "source_location": "L1"
+    },
+    {
       "id": "garuda_memory_dispatcher_dashboard",
       "label": "Real-Time Dispatcher Dashboard",
       "_origin": "semantic",
@@ -17743,6 +17815,61 @@
       "confidence_score": 1.0,
       "source_file": "ARCHITECTURAL_SPEC.md",
       "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_supabase_readme",
+      "target": "backend_supabase_readme_supabase_setup_guide_for_garuda_path",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/supabase/README.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_supabase_readme_supabase_setup_guide_for_garuda_path",
+      "target": "backend_supabase_readme_step_3_run_the_seed_data",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/supabase/README.md",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_supabase_readme_supabase_setup_guide_for_garuda_path",
+      "target": "backend_supabase_readme_step_4_configure_backend_environment_variables",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/supabase/README.md",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_supabase_readme_supabase_setup_guide_for_garuda_path",
+      "target": "backend_supabase_readme_step_1_open_your_supabase_project",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/supabase/README.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_supabase_readme_supabase_setup_guide_for_garuda_path",
+      "target": "backend_supabase_readme_step_2_run_the_schema_migration",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/supabase/README.md",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -27190,5 +27317,5 @@
       "source_file": "garuda_memory.md"
     }
   ],
-  "built_at_commit": "a068c7f166fe11cabb2617c7ab8bdf94c1f62961"
+  "built_at_commit": "edf7204dad3594e4aa2c215d2651c567aa9bd964"
 }
