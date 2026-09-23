@@ -7,9 +7,13 @@ export class FleetController {
     let vehicles = dbStore.vehicles;
 
     if (isSupabaseConnected && supabase) {
-      const { data } = await supabase.from('vehicles').select('*');
-      if (data && data.length > 0) {
-        vehicles = data as Vehicle[];
+      try {
+        const { data, error } = await supabase.from('vehicles').select('*');
+        if (!error && data && data.length > 0) {
+          vehicles = data as Vehicle[];
+        }
+      } catch (err) {
+        console.warn('Supabase query error, using local dataset:', err);
       }
     }
 

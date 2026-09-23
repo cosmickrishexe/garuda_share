@@ -65,10 +65,14 @@ export class AuthController {
 
     // If not in local store and Supabase connected, try Supabase
     if (!user && isSupabaseConnected && supabase) {
-      const { data } = await supabase.from('users').select('*').eq('email', email).single();
-      if (data) {
-        user = data as User;
-        dbStore.users.push(user);
+      try {
+        const { data, error } = await supabase.from('users').select('*').eq('email', email).single();
+        if (!error && data) {
+          user = data as User;
+          dbStore.users.push(user);
+        }
+      } catch (e) {
+        // Fall back to local store
       }
     }
 
