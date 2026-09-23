@@ -1,17 +1,17 @@
 # Graph Report - Garuda_path  (2026-09-23)
 
 ## Corpus Check
-- 82 files · ~58,545 words
+- 83 files · ~62,781 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 21 file(s) not represented in the graph (top: (none) 11, .mdc 10)
 
 ## Summary
-- 1166 nodes · 1108 edges · 93 communities (87 shown, 6 thin omitted)
+- 1203 nodes · 1144 edges · 94 communities (88 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2c34501a`
+- Built from commit: `a068c7f1`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -108,18 +108,19 @@
 - Claude Code Configuration Guide
 - Vibe Coding Rules in short
 - Vibe Coding Rules in short
+- Garuda Path — Master Architectural Specification & Engineering Blueprint
 
 ## God Nodes (most connected - your core abstractions)
-1. `FocusFlow - AI-Powered Productivity Platform` - 17 edges
-2. `[Project Name]` - 16 edges
-3. `Global AI Coding Rules for Agentic Coding` - 14 edges
+1. `Garuda Path — Master Architectural Specification & Engineering Blueprint` - 24 edges
+2. `FocusFlow - AI-Powered Productivity Platform` - 17 edges
+3. `[Project Name]` - 16 edges
 4. `Global AI Coding Rules for Agentic Coding` - 14 edges
-5. `5. Real-World Failure Scenarios & Solutions` - 13 edges
-6. `Vibe Coding AI Rules` - 13 edges
-7. `FocusFlow - AI-Powered Productivity Platform` - 13 edges
-8. `API Design Conventions for AI-Generated Code` - 12 edges
-9. `Error Handling Patterns for AI-Generated Code` - 12 edges
-10. `Logging Standards for AI-Generated Code` - 12 edges
+5. `Global AI Coding Rules for Agentic Coding` - 14 edges
+6. `5. Real-World Failure Scenarios & Solutions` - 13 edges
+7. `Vibe Coding AI Rules` - 13 edges
+8. `FocusFlow - AI-Powered Productivity Platform` - 13 edges
+9. `API Design Conventions for AI-Generated Code` - 12 edges
+10. `Error Handling Patterns for AI-Generated Code` - 12 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -131,7 +132,7 @@
 - **Fleet Management Entities** — garuda_memory_hub, garuda_memory_vehicle, garuda_memory_delivery_stop [EXTRACTED 0.90]
 - **Routing Optimization Flow** — garuda_memory_optimization_core, garuda_memory_mapbox_engine, garuda_memory_dynamic_events [EXTRACTED 0.95]
 
-## Communities (93 total, 6 thin omitted)
+## Communities (94 total, 6 thin omitted)
 
 ### Community 0 - "Optimization Core"
 Cohesion: 0.25
@@ -238,7 +239,7 @@ Cohesion: 0.17
 Nodes (11): Changes, Commits, Communication, Context Management, Dependency Governance, Environment, Industry Standards, Self-Review Before Commit (+3 more)
 
 ### Community 30 - "OpenAI Codex Configuration Guide"
-Cohesion: 0.18
+Cohesion: 0.17
 Nodes (11): Configuration, Cross-IDE Compatibility, Discovery Order, Examples, File Format, File Structure, Global Defaults, OpenAI Codex Configuration Guide (+3 more)
 
 ### Community 31 - "Continue.dev Configuration Guide"
@@ -258,7 +259,7 @@ Cohesion: 0.18
 Nodes (10): Cross-IDE Compatibility, File Format, Files, Global Rules, Hierarchy, Overview, Project Rules, Setup (+2 more)
 
 ### Community 35 - "Google Gemini CLI Configuration Guide"
-Cohesion: 0.20
+Cohesion: 0.22
 Nodes (9): Cross-IDE Compatibility, Discovery Order, Examples, File Format, Google Gemini CLI Configuration Guide, Hierarchy, Overview, Setup (+1 more)
 
 ### Community 36 - "FocusFlow - AI-Powered Productivity Platform"
@@ -481,18 +482,24 @@ Nodes (7): Additional Optimizations, Code Quality & Structure, Coding Workflow, 
 Cohesion: 0.25
 Nodes (7): Additional Optimizations, Code Quality & Structure, Coding Workflow, Deployment & Version Control, Documentation & Progress Tracking, Setup & AI Configuration, Vibe Coding Rules in short
 
+### Community 93 - "Garuda Path — Master Architectural Specification & Engineering Blueprint"
+Cohesion: 0.05
+Nodes (36): 10. Database Schema (Production SQL for Supabase PostgreSQL), 11. Row Level Security (RLS) & Data Isolation Rules, 12. Backend API Routes, 13. Gemini SDK Setup & Server-Side Security, 14. AI System Prompt, 15.1. Disruption Impact & Dynamic Reroute Advisory, 15.2. Multimodal Doorstep ePOD Vision Inspector, 15. Detailed AI Prompts (With Required JSON Schemas) (+28 more)
+
 ## Knowledge Gaps
-- **882 isolated node(s):** `symlink-setup.sh script`, `graphify`, `0. Operating Modes`, `1. Think Before Coding`, `2. Simplicity First` (+877 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 933 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **913 isolated node(s):** `symlink-setup.sh script`, `graphify`, `0. Operating Modes`, `1. Think Before Coding`, `2. Simplicity First` (+908 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 965 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Security Rules for AI-Generated Code` connect `Security Rules for AI-Generated Code` to `vibe-coding-ai-rules-main/README.md`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+- **Why does `API Design Conventions for AI-Generated Code` connect `API Design Conventions for AI-Generated Code` to `vibe-coding-ai-rules-main/README.md`?**
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+- **Why does `Migration Guide: AI IDE Rule Configurations` connect `Migration Guide: AI IDE Rule Configurations` to `vibe-coding-ai-rules-main/README.md`?**
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **What connects `symlink-setup.sh script`, `graphify`, `0. Operating Modes` to the rest of the system?**
-  _882 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _913 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `5. Real-World Failure Scenarios & Solutions` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `[Project Name]` be split into smaller, more focused modules?**
@@ -501,5 +508,3 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.06060606060606061 - nodes in this community are weakly interconnected._
 - **Should `Frontend Package Rules` be split into smaller, more focused modules?**
   _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
-- **Should `Testing Rules for AI-Generated Code` be split into smaller, more focused modules?**
-  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._

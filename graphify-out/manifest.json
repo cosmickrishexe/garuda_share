@@ -520,5 +520,11 @@
     "seen": 1790144455.4671443,
     "ast_hash": "b104c27060dc4788a9dbf87ace48df8a",
     "semantic_hash": ""
+  },
+  "ARCHITECTURAL_SPEC.md": {
+    "mtime": 1790144927.9568622,
+    "seen": 1790144938.0294604,
+    "ast_hash": "b2db82fb12a2be0f9ad681d58ebc57dd",
+    "semantic_hash": ""
   }
 }
