@@ -59,7 +59,7 @@ Garuda Path is an **intelligent, reactive fleet dispatching and dynamic route op
 
 - **Frontend**: React.js (v18) + Vite + React Router + Tailwind CSS + Lucide Icons + Mapbox GL JS + Axios
 - **Backend**: Node.js + Express.js + JWT Authentication + bcrypt + Zod Validation
-- **Database**: SQLite (`garuda.db`)
+- **Database**: **Supabase PostgreSQL** (`@supabase/supabase-js`) with real-time subscriptions for live order tracking & fleet updates
 - **Artificial Intelligence**: Google Gemini API (`GEMINI_API_KEY` stored exclusively in backend env)
 - **Knowledge & Memory**: Graphify Knowledge Graph (`garuda_memory.md` & `graphify-out/`)
 

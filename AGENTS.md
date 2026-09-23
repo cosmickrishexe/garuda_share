@@ -6,7 +6,7 @@ Intelligent, reactive fleet dispatching and dynamic route optimization engine de
 ## Tech Stack
 - **Frontend**: React.js 18, Vite, React Router, Tailwind CSS, Lucide Icons, Mapbox GL JS, Axios
 - **Backend**: Node.js, Express.js, TypeScript
-- **Database**: SQLite (`garuda.db`) via parameterized queries
+- **Database**: Supabase PostgreSQL (`@supabase/supabase-js`) with real-time subscriptions
 - **Security & Auth**: JWT authentication, bcrypt password hashing, Zod schema validation
 - **Artificial Intelligence**: Google Gemini API (`GEMINI_API_KEY` stored exclusively in backend `.env`)
 
@@ -34,16 +34,16 @@ Never mark a task complete without executing the quality gate chain:
 3. Server smoke test (Health check endpoints `/api/health` and live simulation triggers)
 
 ### 5. Security Guardrails
-- **Zero Secret Exposure**: NEVER put Google Gemini keys or Mapbox secret keys in client-side code or public git commits.
-- **Parameterized SQL**: Always bind parameters in SQLite statements (`db.prepare('... WHERE id = ?').run(id)`). Zero raw string concatenation.
+- **Zero Secret Exposure**: NEVER put Google Gemini keys, Mapbox secret keys, or Supabase Service Role keys in client-side code or public git commits.
+- **Supabase Credentials**: `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` / `SUPABASE_ANON_KEY` stored securely in backend `.env`.
 - **Strict Input Validation**: Every incoming Express request body must pass through a Zod schema middleware.
 
 ---
 
 ## Key Directories & Architecture
-- `backend/src/config/`: SQLite database setup and environment configuration
+- `backend/src/config/`: Supabase client initialization and environment configuration
 - `backend/src/controllers/`: Route handlers for auth, fleet, orders, optimize, and AI
-- `backend/src/services/`: CVRPTW solver, 2-Opt heuristic, Gemini AI mobility engine
+- `backend/src/services/`: CVRPTW solver, 2-Opt heuristic, Gemini AI mobility engine, Supabase real-time sync
 - `frontend/src/components/map/`: Mapbox GL JS map canvas, route polylines, and live vehicle markers
 - `frontend/src/components/dashboard/`: Dispatcher Command Center, incident simulator, and metrics cards
 - `garuda_memory.md`: Graphify-indexed persistent domain memory
