@@ -1,41 +1,110 @@
 # Graph Report - Garuda_path  (2026-09-23)
 
 ## Corpus Check
-- 5 files · ~2,950 words
+- 68 files · ~41,242 words
 - Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 1 file(s) not represented in the graph (top: (none) 1)
+- Unclassified: 21 file(s) not represented in the graph (top: (none) 11, .mdc 10)
 
 ## Summary
-- 34 nodes · 27 edges · 8 communities (4 shown, 4 thin omitted)
-- Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
+- 892 nodes · 846 edges · 77 communities (72 shown, 5 thin omitted)
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ad12e6b2`
+- Built from commit: `e51d39c8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Optimization Core
 - 🦅 Garuda Path — AI for Smart Mobility & Adaptive Fleet Logistics
-- Garuda Path — Intelligent AI Smart Mobility & Adaptive Fleet Logistics
+- 5. Real-World Failure Scenarios & Solutions
 - Hub / Depot
 - Technology Stack
 - rules/graphify.md
 - workflows/graphify.md
-- 📦 6. Getting Started
+- [Project Name]
+- vibe-coding-ai-rules-main/README.md
+- Security Rules for AI-Generated Code
+- Frontend Package Rules
+- Testing Rules for AI-Generated Code
+- Performance Rules for AI-Generated Code
+- API Design Conventions for AI-Generated Code
+- Project Conventions
+- [Project Name]
+- Migration Guide: AI IDE Rule Configurations
+- How Each IDE Loads Rules
+- FocusFlow - AI-Powered Productivity Platform
+- Error Handling Patterns for AI-Generated Code
+- Logging Standards for AI-Generated Code
+- Global AI Coding Rules for Agentic Coding
+- [Project Name]
+- Aider Configuration Guide
+- Contributing to Vibe Coding AI Rules
+- Workflow Standards
+- Cline Configuration Guide
+- {{PROJECT_NAME}}
+- Cursor Configuration Guide
+- Workflow Rules
+- OpenAI Codex Configuration Guide
+- Continue.dev Configuration Guide
+- {{PROJECT_NAME}}
+- Zed AI Configuration Guide
+- Windsurf Configuration Guide
+- Google Gemini CLI Configuration Guide
+- FocusFlow - AI-Powered Productivity Platform
+- GitHub Copilot Configuration Guide
+- {{PROJECT_NAME}}
+- {{PROJECT_NAME}}
+- Global AI Coding Rules for Windsurf
+- Global AI Coding Rules for Windsurf
+- FocusFlow - AI-Powered Productivity Platform
+- Code Style Guidelines
+- FocusFlow
+- Code Style and Conventions
+- Vibe Coding Rules in short
+- Security Rules
+- Testing Standards
+- Code Style & Conventions
+- Testing Standards
+- FocusFlow - Project Context
+- FocusFlow Code Style
+- Core Coding Principles
+- Security Rules
+- Testing Standards
+- Workflow Standards
+- FocusFlow Code Style
+- FocusFlow React Patterns
+- React Patterns
+- Security Standards
+- Testing Standards
+- Security Considerations
+- FocusFlow Code Style
+- Core Coding Principles
+- Security Rules
+- Code Style and Conventions
+- Code Style Standards
+- Python Patterns
+- Git Workflow and PR Process
+- Tech Stack
+- Testing Instructions
+- Troubleshooting and Common Issues
+- Performance Considerations
+- Build and Development Commands
+- Safety and Permissions
+- symlink-setup.sh
 
 ## God Nodes (most connected - your core abstractions)
-1. `🦅 Garuda Path — AI for Smart Mobility & Adaptive Fleet Logistics` - 8 edges
-2. `Garuda Path — Intelligent AI Smart Mobility & Adaptive Fleet Logistics` - 7 edges
-3. `Optimization Core` - 4 edges
-4. `📦 6. Getting Started` - 3 edges
-5. `Mapbox Directions & Matrix Engine` - 3 edges
-6. `Fleet State & Capacity Allocator` - 2 edges
-7. `graphify` - 1 edges
-8. `Workflow: graphify` - 1 edges
-9. `📌 1. Problem Statement` - 1 edges
-10. `🚀 2. Solution: Garuda Path` - 1 edges
+1. `FocusFlow - AI-Powered Productivity Platform` - 17 edges
+2. `[Project Name]` - 16 edges
+3. `Global AI Coding Rules for Agentic Coding` - 14 edges
+4. `5. Real-World Failure Scenarios & Solutions` - 13 edges
+5. `Vibe Coding AI Rules` - 13 edges
+6. `FocusFlow - AI-Powered Productivity Platform` - 13 edges
+7. `API Design Conventions for AI-Generated Code` - 12 edges
+8. `Error Handling Patterns for AI-Generated Code` - 12 edges
+9. `Logging Standards for AI-Generated Code` - 12 edges
+10. `Workflow Standards` - 12 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -47,35 +116,315 @@
 - **Fleet Management Entities** — garuda_memory_hub, garuda_memory_vehicle, garuda_memory_delivery_stop [EXTRACTED 0.90]
 - **Routing Optimization Flow** — garuda_memory_optimization_core, garuda_memory_mapbox_engine, garuda_memory_dynamic_events [EXTRACTED 0.95]
 
-## Communities (8 total, 4 thin omitted)
+## Communities (77 total, 5 thin omitted)
 
 ### Community 0 - "Optimization Core"
 Cohesion: 0.25
 Nodes (8): Delivery Stop (Order), Real-Time Dispatcher Dashboard, Driver Mobile View & Live Telemetry, Dynamic Events, Fleet State & Capacity Allocator, Mapbox Directions & Matrix Engine, Optimization Core, Order Ingestion & Urgency Scorer
 
 ### Community 1 - "🦅 Garuda Path — AI for Smart Mobility & Adaptive Fleet Logistics"
-Cohesion: 0.25
-Nodes (7): 📌 1. Problem Statement, 🚀 2. Solution: Garuda Path, 🚚 3. Heterogeneous 4-Class Clean EV Fleet, 🚨 4. Real-World Operational Scenarios Handled, 🛠️ 5. Technology Stack, 🏆 7. Hackathon Submission Information, 🦅 Garuda Path — AI for Smart Mobility & Adaptive Fleet Logistics
+Cohesion: 0.18
+Nodes (10): 📌 1. Problem Statement, 🚀 2. Solution: Garuda Path, 🚚 3. Heterogeneous 4-Class Clean EV Fleet, 🚨 4. Real-World Operational Scenarios Handled, 🛠️ 5. Technology Stack, 📦 6. Getting Started, 🏆 7. Hackathon Submission Information, 🦅 Garuda Path — AI for Smart Mobility & Adaptive Fleet Logistics (+2 more)
 
-### Community 2 - "Garuda Path — Intelligent AI Smart Mobility & Adaptive Fleet Logistics"
-Cohesion: 0.25
-Nodes (7): 1. Problem Statement & Real-World Logistics Friction, 2. Continuous Multi-Stop Optimization Engine ("Connect in One Go"), 3. Real-Time Turn-by-Turn Navigation & Driver Telemetry, 4. Multi-Class Fleet Allotment Matrix, 5. Real-World Failure Scenarios Tackled by Garuda Path, 6. Hackathon 3–5 Minute Demo Video Script & Storyboard, Garuda Path — Intelligent AI Smart Mobility & Adaptive Fleet Logistics
+### Community 2 - "5. Real-World Failure Scenarios & Solutions"
+Cohesion: 0.06
+Nodes (34): 1. Problem Statement & Real-World Logistics Friction, 2. Continuous Multi-Stop Optimization Engine ("Connect in One Go"), 3. Real-Time Turn-by-Turn Navigation & Driver Telemetry, 4. Multi-Class Fleet Allotment Matrix, 5. Real-World Failure Scenarios & Solutions, 6. Customer-Facing Features & Solutions, 6a. Live Tracking Link (Zero-Install PWA), 6b. Electronic Proof of Delivery (ePOD) (+26 more)
 
-### Community 7 - "📦 6. Getting Started"
+### Community 7 - "[Project Name]"
+Cohesion: 0.04
+Nodes (47): Additional Resources, AGENTS.md - Universal AI Agent Configuration, Authentication & Authorization, Branch Naming, Build and Development Commands, Code Style and Conventions, Commit Messages, Common Gotchas (+39 more)
+
+### Community 8 - "vibe-coding-ai-rules-main/README.md"
+Cohesion: 0.06
+Nodes (29): Additional Optimizations, Code Quality & Structure, Coding Workflow, Deployment & Version Control, Documentation & Progress Tracking, Setup & AI Configuration, Vibe Coding Rules in short, Claude Code Configuration Guide (+21 more)
+
+### Community 9 - "Security Rules for AI-Generated Code"
+Cohesion: 0.06
+Nodes (33): 1. Trust Nothing, Verify Everything, 2. Defense in Depth, 3. Principle of Least Privilege, API Key Security, Audit Logging, Authentication and Authorization, Authentication Requirements, Authorization Patterns (+25 more)
+
+### Community 10 - "Frontend Package Rules"
+Cohesion: 0.06
+Nodes (31): 1. Be Specific and Actionable, 2. Use Examples from Your Codebase, 3. Create Rule Hierarchies, 4. Tag Rules for Traceability, 5. Use Positive and Negative Examples, API Documentation, Architecture Decisions, Best Practices for Agentic Coding (+23 more)
+
+### Community 11 - "Testing Rules for AI-Generated Code"
+Cohesion: 0.07
+Nodes (27): 1. Test Behavior, Not Implementation, 1. Test Interdependencies, 2. AI Code Needs More Testing, Not Less, 2. Hardcoded Test Data, 3. Testing Implementation Details, 3. Tests as Documentation, 4. Sleeping in Tests, Anti-Patterns to Avoid (+19 more)
+
+### Community 12 - "Performance Rules for AI-Generated Code"
+Cohesion: 0.08
+Nodes (24): 1. Measure Before Optimizing, 2. Clarity First, Performance Second, 3. Think in Systems, Algorithm Complexity, API Response Times, Async and Concurrency, Backend Performance, Bundle Size Optimization (+16 more)
+
+### Community 13 - "API Design Conventions for AI-Generated Code"
+Cohesion: 0.08
+Nodes (24): 1. Consistency Over Creativity, 2. Client-First Design, 3. Backward Compatibility by Default, Anti-Patterns, API Design Conventions for AI-Generated Code, Authentication Patterns, Checklist for AI Agents, Client Errors (+16 more)
+
+### Community 14 - "Project Conventions"
+Cohesion: 0.08
+Nodes (23): Changes, Clarify Before Coding, Code Style, Commits, Communication, Core Principles, Coverage, Documentation (+15 more)
+
+### Community 15 - "[Project Name]"
+Cohesion: 0.09
+Nodes (22): AGENTS.md - Standard Template, Before Creating a PR, Branch Naming, Build and Development Commands, Code Style and Conventions, Commit Messages, Core Technologies, Development Tools (+14 more)
+
+### Community 16 - "Migration Guide: AI IDE Rule Configurations"
+Cohesion: 0.10
+Nodes (20): Claude Code: CLAUDE.md Hierarchy, Cline: Numbered Files, Codex: AGENTS.md, Cursor: Multi-File .mdc Rules, Format Comparison, From Any IDE to Claude Code, From Any IDE to Cline, From Any IDE to GitHub Copilot (+12 more)
+
+### Community 17 - "How Each IDE Loads Rules"
+Cohesion: 0.11
+Nodes (19): AI IDE Comparison: Rules & Configuration, Aider, By Project Complexity, Claude Code, Cline, Continue.dev, Cross-IDE Compatibility, Cursor (+11 more)
+
+### Community 18 - "FocusFlow - AI-Powered Productivity Platform"
+Cohesion: 0.11
+Nodes (18): Code Style, Commands, Core Rules, DO NOT Use, FocusFlow - AI-Powered Productivity Platform, Formatting, Key Files, Naming (+10 more)
+
+### Community 19 - "Error Handling Patterns for AI-Generated Code"
+Cohesion: 0.11
+Nodes (17): 1. Fail Fast, Fail Explicitly, 2. Explicit Over Implicit, 3. No Silent Failures, Anti-Patterns, Async Error Handling, Circuit Breaker, Core Principles, Error Boundaries (+9 more)
+
+### Community 20 - "Logging Standards for AI-Generated Code"
+Cohesion: 0.12
+Nodes (15): 1. Structured Over Unstructured, 2. Leveled and Intentional, 3. Contextual and Traceable, Anti-Patterns, Core Principles, Correlation IDs: Request Tracing, Frontend Logging, Log Aggregation (+7 more)
+
+### Community 21 - "Global AI Coding Rules for Agentic Coding"
+Cohesion: 0.13
+Nodes (14): 0. Operating Modes, 10. Feature-Based Development Workflow, 11. Communication Protocol, 12. Tool & Environment Conventions, 1. Think Before Coding, 2. Simplicity First, 3. Surgical Changes, 4. Goal-Driven Execution (+6 more)
+
+### Community 22 - "[Project Name]"
+Cohesion: 0.13
+Nodes (14): 1. Clarify Before Coding, 2. Simplicity First, 3. Security By Default, 4. Test-Driven Thinking, AGENTS.md - Quick-Start Template, Code Style, Core Rules, Git Workflow (+6 more)
+
+### Community 23 - "Aider Configuration Guide"
+Cohesion: 0.14
+Nodes (13): Aider Configuration Guide, Config File, Config File Format, Conventions File Format, Cross-IDE Compatibility, Examples, File Structure, Overview (+5 more)
+
+### Community 24 - "Contributing to Vibe Coding AI Rules"
+Cohesion: 0.15
+Nodes (12): Adding or Improving Rules, Adding Support for a New IDE, Commit Messages, Content Sync Requirement, Contributing to Vibe Coding AI Rules, File Naming, Guidelines, How to Contribute (+4 more)
+
+### Community 25 - "Workflow Standards"
+Cohesion: 0.15
+Nodes (12): Atomic Changes (AC), Change Scope Discipline (CSD), Commit Discipline (CD), Context Window Management (CWM), Dependency Governance, Environment Awareness, Industry Standards, Self-Review Before Commit (+4 more)
+
+### Community 26 - "Cline Configuration Guide"
+Cohesion: 0.15
+Nodes (12): Cline Configuration Guide, Cross-IDE Compatibility, Examples, File Format, File Structure, Multi-File (Recommended), Option A: Single File, Option B: Multi-File (Recommended) (+4 more)
+
+### Community 27 - "{{PROJECT_NAME}}"
+Cohesion: 0.15
+Nodes (12): Additional Rules, Code Style, Commands, Core Principles, DO NOT Use, Key Files, {{PROJECT_NAME}}, Security (+4 more)
+
+### Community 28 - "Cursor Configuration Guide"
+Cohesion: 0.15
+Nodes (12): Cross-IDE Compatibility, Cursor Configuration Guide, Examples, File Structure, Legacy: Single File, .mdc File Format, Naming Convention, Overview (+4 more)
+
+### Community 29 - "Workflow Rules"
+Cohesion: 0.17
+Nodes (11): Changes, Commits, Communication, Context Management, Dependency Governance, Environment, Industry Standards, Self-Review Before Commit (+3 more)
+
+### Community 30 - "OpenAI Codex Configuration Guide"
+Cohesion: 0.17
+Nodes (11): Configuration, Cross-IDE Compatibility, Discovery Order, Examples, File Format, File Structure, Global Defaults, OpenAI Codex Configuration Guide (+3 more)
+
+### Community 31 - "Continue.dev Configuration Guide"
+Cohesion: 0.17
+Nodes (11): Continue.dev Configuration Guide, Cross-IDE Compatibility, Examples, File Structure, Frontmatter Options, Model Configuration, Overview, Rule File Format (+3 more)
+
+### Community 32 - "{{PROJECT_NAME}}"
+Cohesion: 0.17
+Nodes (11): Code Style, Commands, Core Rules, DO NOT Use, Key Files, {{PROJECT_NAME}}, Security, Tech Stack (+3 more)
+
+### Community 33 - "Zed AI Configuration Guide"
+Cohesion: 0.17
+Nodes (11): Alternative: Zed-Native .rules File, Cross-IDE Compatibility, Examples, File Format, File Structure, Overview, Recommended: Use AGENTS.md, Rule File Priority (+3 more)
+
+### Community 34 - "Windsurf Configuration Guide"
+Cohesion: 0.18
+Nodes (10): Cross-IDE Compatibility, File Format, Files, Global Rules, Hierarchy, Overview, Project Rules, Setup (+2 more)
+
+### Community 35 - "Google Gemini CLI Configuration Guide"
+Cohesion: 0.20
+Nodes (9): Cross-IDE Compatibility, Discovery Order, Examples, File Format, Google Gemini CLI Configuration Guide, Hierarchy, Overview, Setup (+1 more)
+
+### Community 36 - "FocusFlow - AI-Powered Productivity Platform"
+Cohesion: 0.20
+Nodes (9): Code Style, Commands, Core Principles, DO NOT Use, FocusFlow - AI-Powered Productivity Platform, Key Files, Project Overview, Tech Stack (+1 more)
+
+### Community 37 - "GitHub Copilot Configuration Guide"
+Cohesion: 0.20
+Nodes (9): Cross-IDE Compatibility, Examples, File Structure, GitHub Copilot Configuration Guide, .instructions.md File Format, Key Points, Overview, Setup (+1 more)
+
+### Community 38 - "{{PROJECT_NAME}}"
+Cohesion: 0.22
+Nodes (8): Additional Rules, Code Style, Commands, Core Principles (Non-Negotiable), {{PROJECT_NAME}}, Tech Stack, When Uncertain, Workflow
+
+### Community 39 - "{{PROJECT_NAME}}"
+Cohesion: 0.22
+Nodes (8): Core Principles, DO NOT Use, {{PROJECT_NAME}}, Project Overview, Setup Commands, Tech Stack, When Uncertain, Workflow
+
+### Community 40 - "Global AI Coding Rules for Windsurf"
+Cohesion: 0.22
+Nodes (8): AI Communication Guidelines, Code Quality Guarantees, Continous documentation during development process (CDiP), Core Principles, Feature-Based Development Workflow, Global AI Coding Rules for Windsurf, Security & Performance Considerations, Workflow Standards
+
+### Community 41 - "Global AI Coding Rules for Windsurf"
+Cohesion: 0.22
+Nodes (8): AI Communication, Code Quality Guarantees, Core Principles, Development Workflow, Documentation & Tracking, Global AI Coding Rules for Windsurf, Security & Performance, Workflow Standards
+
+### Community 42 - "FocusFlow - AI-Powered Productivity Platform"
+Cohesion: 0.22
+Nodes (8): Additional Resources, AI Agent Workflow (Feature Development), Context Management Notes, FocusFlow - AI-Powered Productivity Platform, Project Overview, Project Structure, Setup Commands, When Stuck or Uncertain
+
+### Community 43 - "Code Style Guidelines"
+Cohesion: 0.25
+Nodes (7): Code Style Guidelines, Formatting, Naming Conventions, Patterns, Python, Readability, TypeScript
+
+### Community 44 - "FocusFlow"
+Cohesion: 0.25
+Nodes (7): Code Style, Commands, Core Rules, FocusFlow, Key Files, Tech Stack, When Uncertain
+
+### Community 45 - "Code Style and Conventions"
+Cohesion: 0.25
+Nodes (8): Code Style and Conventions, Do's ✅, Don'ts ❌, Formatting Rules, Good and Bad Examples, Naming Conventions, Python Rules, TypeScript/React Rules
+
+### Community 46 - "Vibe Coding Rules in short"
+Cohesion: 0.25
+Nodes (7): Additional Optimizations, Code Quality & Structure, Coding Workflow, Deployment & Version Control, Documentation & Progress Tracking, Setup & AI Configuration, Vibe Coding Rules in short
+
+### Community 47 - "Security Rules"
+Cohesion: 0.29
+Nodes (6): API Security, Injection Prevention, Input Validation, Review, Secrets & Auth, Security Rules
+
+### Community 48 - "Testing Standards"
+Cohesion: 0.29
+Nodes (6): Anti-Patterns, Coverage, Mocking, Structure, Testing Standards, Types
+
+### Community 49 - "Code Style & Conventions"
+Cohesion: 0.29
+Nodes (6): Code Style & Conventions, Do's, Don'ts, Formatting, Naming Conventions, Readability
+
+### Community 50 - "Testing Standards"
+Cohesion: 0.29
+Nodes (6): Anti-Patterns to Avoid, Coverage Requirements, Mocking, Test Structure, Test Types, Testing Standards
+
+### Community 51 - "FocusFlow - Project Context"
+Cohesion: 0.29
+Nodes (6): Commands, DO NOT Use, FocusFlow - Project Context, Key Files, Overview, Tech Stack
+
+### Community 52 - "FocusFlow Code Style"
+Cohesion: 0.29
+Nodes (6): FocusFlow Code Style, Formatting, Naming, Patterns, Python, TypeScript/React
+
+### Community 53 - "Core Coding Principles"
+Cohesion: 0.29
+Nodes (6): Additional Standards, Clarify Before Coding, Core Coding Principles, Security By Default, Simplicity First, Test-Driven Thinking
+
+### Community 54 - "Security Rules"
+Cohesion: 0.29
+Nodes (6): API Security, Injection Prevention, Input Validation, Review, Secrets and Authentication, Security Rules
+
+### Community 55 - "Testing Standards"
+Cohesion: 0.29
+Nodes (6): Anti-Patterns to Avoid, Coverage Requirements, Mocking, Test Structure, Test Types, Testing Standards
+
+### Community 56 - "Workflow Standards"
+Cohesion: 0.29
+Nodes (6): Changes, Commits, Communication, Context Management, Environment, Workflow Standards
+
+### Community 57 - "FocusFlow Code Style"
+Cohesion: 0.29
+Nodes (6): FocusFlow Code Style, Formatting, Naming, Patterns, Python, TypeScript/React
+
+### Community 58 - "FocusFlow React Patterns"
+Cohesion: 0.29
+Nodes (6): Auth Pattern, Component Guidelines, FocusFlow React Patterns, Good Examples, Performance, State Management
+
+### Community 59 - "React Patterns"
+Cohesion: 0.29
+Nodes (6): Accessibility, Component Structure, Error Handling, Performance, React Patterns, State Management
+
+### Community 60 - "Security Standards"
+Cohesion: 0.29
+Nodes (6): API Security, Authentication & Secrets, Core Principles, Injection Prevention, Input Validation (MANDATORY), Security Standards
+
+### Community 61 - "Testing Standards"
+Cohesion: 0.29
+Nodes (6): Anti-Patterns to Avoid, Coverage Requirements, Mocking, Test Structure, Test Types, Testing Standards
+
+### Community 62 - "Security Considerations"
+Cohesion: 0.29
+Nodes (7): Authentication & Authorization, Data Protection, Input Validation, Secrets Management, Security Considerations, Security Requirements, Security Scanning
+
+### Community 63 - "FocusFlow Code Style"
+Cohesion: 0.33
+Nodes (5): FocusFlow Code Style, Naming, Patterns, Python, TypeScript/React
+
+### Community 64 - "Core Coding Principles"
+Cohesion: 0.33
+Nodes (5): Clarify Before Coding, Core Coding Principles, Security By Default, Simplicity First, Test-Driven Thinking
+
+### Community 65 - "Security Rules"
+Cohesion: 0.33
+Nodes (5): API Security, Authentication & Secrets, Injection Prevention, Input Validation, Security Rules
+
+### Community 66 - "Code Style and Conventions"
+Cohesion: 0.33
+Nodes (5): Code Style and Conventions, Do's, Don'ts, Formatting, Naming Conventions
+
+### Community 67 - "Code Style Standards"
+Cohesion: 0.33
+Nodes (5): Code Style Standards, Do's, Don'ts, Formatting, Naming Conventions
+
+### Community 68 - "Python Patterns"
+Cohesion: 0.33
+Nodes (5): Async, Error Handling, Python Patterns, Style, Type Hints
+
+### Community 69 - "Git Workflow and PR Process"
+Cohesion: 0.40
+Nodes (5): Branch Naming, Commit Messages, Git Operations Safety, Git Workflow and PR Process, Pull Request Requirements
+
+### Community 70 - "Tech Stack"
+Cohesion: 0.40
+Nodes (5): Core Technologies, Development Tools, Explicitly DO NOT Use, Key Dependencies, Tech Stack
+
+### Community 71 - "Testing Instructions"
+Cohesion: 0.40
+Nodes (5): Running Tests, Test Requirements, Testing Framework, Testing Instructions, Testing Patterns
+
+### Community 72 - "Troubleshooting and Common Issues"
+Cohesion: 0.50
+Nodes (4): Common Gotchas, Debugging, Performance Debugging, Troubleshooting and Common Issues
+
+### Community 73 - "Performance Considerations"
+Cohesion: 0.50
+Nodes (4): Monitoring, Optimization Guidelines, Performance Considerations, Performance Requirements
+
+### Community 74 - "Build and Development Commands"
 Cohesion: 0.67
-Nodes (3): 📦 6. Getting Started, Installation, Prerequisites
+Nodes (3): Build and Development Commands, File-Scoped Commands (Preferred - Fast), Project-Wide Commands (Use Sparingly)
+
+### Community 75 - "Safety and Permissions"
+Cohesion: 0.67
+Nodes (3): Operations Allowed Without Prompting, Operations That Require Approval, Safety and Permissions
 
 ## Knowledge Gaps
-- **24 isolated node(s):** `graphify`, `Workflow: graphify`, `📌 1. Problem Statement`, `🚀 2. Solution: Garuda Path`, `🚚 3. Heterogeneous 4-Class Clean EV Fleet` (+19 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 28 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **674 isolated node(s):** `symlink-setup.sh script`, `graphify`, `Workflow: graphify`, `📌 1. Problem Statement`, `🚀 2. Solution: Garuda Path` (+669 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 716 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `🦅 Garuda Path — AI for Smart Mobility & Adaptive Fleet Logistics` connect `🦅 Garuda Path — AI for Smart Mobility & Adaptive Fleet Logistics` to `📦 6. Getting Started`?**
-  _High betweenness centrality (0.080) - this node is a cross-community bridge._
-- **Why does `📦 6. Getting Started` connect `📦 6. Getting Started` to `🦅 Garuda Path — AI for Smart Mobility & Adaptive Fleet Logistics`?**
-  _High betweenness centrality (0.032) - this node is a cross-community bridge._
-- **What connects `graphify`, `Workflow: graphify`, `📌 1. Problem Statement` to the rest of the system?**
-  _24 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `Security Rules for AI-Generated Code` connect `Security Rules for AI-Generated Code` to `vibe-coding-ai-rules-main/README.md`?**
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
+- **Why does `API Design Conventions for AI-Generated Code` connect `API Design Conventions for AI-Generated Code` to `vibe-coding-ai-rules-main/README.md`?**
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+- **What connects `symlink-setup.sh script`, `graphify`, `Workflow: graphify` to the rest of the system?**
+  _674 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `5. Real-World Failure Scenarios & Solutions` be split into smaller, more focused modules?**
+  _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
+- **Should `[Project Name]` be split into smaller, more focused modules?**
+  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
+- **Should `vibe-coding-ai-rules-main/README.md` be split into smaller, more focused modules?**
+  _Cohesion score 0.05873015873015873 - nodes in this community are weakly interconnected._
+- **Should `Security Rules for AI-Generated Code` be split into smaller, more focused modules?**
+  _Cohesion score 0.06060606060606061 - nodes in this community are weakly interconnected._

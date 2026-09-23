@@ -1,8 +1,8 @@
 {
   "garuda_memory.md": {
-    "mtime": 1790142441.981188,
-    "seen": 1790142471.568332,
-    "ast_hash": "7bbd170ea2c15d690618e1f725ea4df5",
+    "mtime": 1790143466.4142358,
+    "seen": 1790143480.1837912,
+    "ast_hash": "3eead905773fbeb4bc3caddc456ab957",
     "semantic_hash": ""
   },
   ".agents/rules/graphify.md": {
@@ -18,9 +18,9 @@
     "semantic_hash": ""
   },
   "garuda_memoery.md": {
-    "mtime": 1790142460.837428,
-    "seen": 1790142471.5683236,
-    "ast_hash": "7bbd170ea2c15d690618e1f725ea4df5",
+    "mtime": 1790143476.321362,
+    "seen": 1790143480.1837847,
+    "ast_hash": "3eead905773fbeb4bc3caddc456ab957",
     "semantic_hash": ""
   },
   "Problem_sp&resources/Theme_ AI for Smart Mobility.pdf": {
@@ -30,9 +30,411 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1790141614.6666858,
-    "seen": 1790142471.5683115,
-    "ast_hash": "5f55a9adcf8c3e29627a50392abac1eb",
+    "mtime": 1790142482.7917075,
+    "seen": 1790143480.1837769,
+    "ast_hash": "8c2fbbfc2ed037d46c681ec28cac3442",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/scripts/symlink-setup.sh": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1836812,
+    "ast_hash": "8e5799c84bfcfd533197c316c3a36485",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/AGENTS.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.183798,
+    "ast_hash": "c8ed507db760150f06fb7d40afdb2fd6",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/CONTRIBUTING.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1838036,
+    "ast_hash": "3ac0892109d1c9791cdb2e4f99507ec8",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/README.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.183809,
+    "ast_hash": "7c094ba681c1311a3506ecac4df38bf3",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/adapt_Windsurfrules_Prompt.txt": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1838138,
+    "ast_hash": "df48b39523a10369f9c11f1a7f1b9b53",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/docs/api-design.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1838205,
+    "ast_hash": "e07e7f63ac7c3d3a9b2a3974bb0fc03c",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/docs/best-practices.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1838257,
+    "ast_hash": "eddb562cdae4d9939898f0727e591880",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/docs/error-handling.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1838307,
+    "ast_hash": "7fce9e3cb9ad9385746398c167645d17",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/docs/ide-comparison.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.183836,
+    "ast_hash": "a6d85fcc20b8a33fd87551c356942850",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/docs/logging-rules.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1838424,
+    "ast_hash": "5bfcf3fb2a20bc86d79c7443e89fec4c",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/docs/migration-guide.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1838484,
+    "ast_hash": "8f3ccc40e3319e3770dd2e4797109b81",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/docs/performance-rules.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1838543,
+    "ast_hash": "0576d13ead493caa2cd87e1c5ccdb7b9",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/docs/security-rules.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1838603,
+    "ast_hash": "4786b37ec5249bd17dc8d94c53782246",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/docs/testing-rules.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1838667,
+    "ast_hash": "787df88920d3c88dc8d57374c72d0ab5",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/docs/vibe-coding-overview.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1838727,
+    "ast_hash": "8bf1d6ede968e70bdcd9e50a23d663d0",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/global_rules.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.183879,
+    "ast_hash": "1876f50c402a2301f515d3e6636a6172",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/aider/.aider.conf.yml": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.183886,
+    "ast_hash": "8de7366e9f695e466cc415608c3fef21",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/aider/README.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.183892,
+    "ast_hash": "fec8dfe78bff819fe0cffcbd2da3aa8a",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/aider/conventions.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1838975,
+    "ast_hash": "7365251edb8a71ac4d3a92a0c4d9f531",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/claude-code/.claude/rules/code-style.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839037,
+    "ast_hash": "a69f5fd8c50765fb68b5e0715714a856",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/claude-code/.claude/rules/security.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839092,
+    "ast_hash": "1ed02435ba6b8bf145bcaddbd91740d5",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/claude-code/.claude/rules/testing.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839144,
+    "ast_hash": "0d3521a15e465f9da7e4992b98bfa1dd",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/claude-code/.claude/rules/workflow.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839201,
+    "ast_hash": "5adbbc202ab1fb8f2727b2886027e6fd",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/claude-code/CLAUDE.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839259,
+    "ast_hash": "9e268161e1d531cba69bd5734a254601",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/claude-code/README.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839316,
+    "ast_hash": "107130e1a9d7f6054b512d38e69acd6c",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/claude-code/examples/.claude/rules/code-style.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839387,
+    "ast_hash": "1698807b52193f64e82c0a54bb0869e9",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/claude-code/examples/CLAUDE.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839445,
+    "ast_hash": "0374ca6afa8dee1d7ffe170497741c58",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/cline/.clinerules-dir/01-core-principles.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839504,
+    "ast_hash": "ff25f09ac2dacdb770573980c0f8682c",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/cline/.clinerules-dir/02-code-style.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839561,
+    "ast_hash": "47255a59b938cc9c639df8b8b6319e94",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/cline/.clinerules-dir/03-security.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839623,
+    "ast_hash": "874e553eecee02f0a68217bc4876b6f7",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/cline/.clinerules-dir/04-workflow.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839683,
+    "ast_hash": "ebde50fcd2c0b10b1ff6e1373a15618e",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/cline/.clinerules-dir/05-testing.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.183974,
+    "ast_hash": "23816f810255a34c70e4f1e1e44b397c",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/cline/README.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839797,
+    "ast_hash": "879d432033f6b3b2d5b45229c45f763a",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/cline/examples/.clinerules-dir/01-project-context.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839852,
+    "ast_hash": "2edf516f2d272d89199a27df135bf790",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/cline/examples/.clinerules-dir/02-code-style.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839929,
+    "ast_hash": "6ecfa559837c0c7ad6b84392021ec15e",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/codex/AGENTS.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1839993,
+    "ast_hash": "57fce7e8cd4792a555cd40bbf268abc1",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/codex/README.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.184005,
+    "ast_hash": "82a09fb06b4f3f43a4a40017189eb4f8",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/codex/examples/AGENTS.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1840165,
+    "ast_hash": "cbe76620c471c49651644fcbda28cd09",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/continue/.continue/rules/code-style.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1840222,
+    "ast_hash": "e67b299528eb5c0b1219e2a2d91aba9a",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/continue/.continue/rules/core-principles.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.184028,
+    "ast_hash": "c11fb7cf7a036d7b78c3551455c51eff",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/continue/.continue/rules/security.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1840339,
+    "ast_hash": "92dbd7315ede9880b120dfc315f8f4dd",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/continue/.continue/rules/testing.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1840398,
+    "ast_hash": "a4d1095bda89fa1bb8b6aab04a9a6dd5",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/continue/.continue/rules/workflow.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.184046,
+    "ast_hash": "2a490572d381b2dea52d050e82c558a6",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/continue/README.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1840518,
+    "ast_hash": "0404b3a3bab648ae99f977dbef45a0ae",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/cursor/README.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.184058,
+    "ast_hash": "7bc0f41e38774e52d588ce5892c6cec4",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/gemini-cli/GEMINI.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.184064,
+    "ast_hash": "30dbd5229a79040136d4d373537c796a",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/gemini-cli/README.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1840696,
+    "ast_hash": "7fdffae7fbfbd3ee2d7a1139b6920bd1",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/github-copilot/.github/copilot-instructions.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.184075,
+    "ast_hash": "444e4eaaac3c178a450c1013f706195c",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/github-copilot/.github/instructions/code-style.instructions.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1840804,
+    "ast_hash": "6939fe089ae5a457b4be803dcecc68ab",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/github-copilot/.github/instructions/python.instructions.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1840868,
+    "ast_hash": "242097194c27ada6904ca1b002379092",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/github-copilot/.github/instructions/react.instructions.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1840925,
+    "ast_hash": "13bf3a69cbfae24e8a717c44bab768fe",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/github-copilot/.github/instructions/security.instructions.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.184098,
+    "ast_hash": "9af89873ff411fb038473cc2b2c27865",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/github-copilot/.github/instructions/testing.instructions.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.184104,
+    "ast_hash": "56802bea0a4b933c099d7516b1977a30",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/github-copilot/README.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.18411,
+    "ast_hash": "683449991ebd1116466b0b6bdd7dcec6",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/github-copilot/examples/.github/copilot-instructions.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1841156,
+    "ast_hash": "0d02efd50107d3dbddda46d39edeb8ae",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/github-copilot/examples/.github/instructions/code-style.instructions.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1841216,
+    "ast_hash": "1866451b991ae37b3e9a5289b198e88f",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/github-copilot/examples/.github/instructions/react.instructions.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1841276,
+    "ast_hash": "4564ba8c690dba79e8a9a44b54b10a94",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/windsurf/README.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1841333,
+    "ast_hash": "d3fda61f19b89a5ced248e1eae5a8fbf",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/windsurf/examples/global_rules.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1841388,
+    "ast_hash": "2e94d937b4a1ddaf14fd6b9a4e407310",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/windsurf/global_rules.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1841447,
+    "ast_hash": "c075d8582e97c075a2746ef6298ee6b0",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/ide-specific/zed/README.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1841502,
+    "ast_hash": "96654fee11ce6127915b558cb2360fa7",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/prompts/adapt-rules-prompt.txt": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.184156,
+    "ast_hash": "349bb89c91e0b0ab35610bd18b02ebd8",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/prompts/project-analyzer-prompt.txt": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1841612,
+    "ast_hash": "7175ea84c7541ce932d5484b3787206d",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/templates/AGENTS.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.184167,
+    "ast_hash": "004ad01dedf60ff054fd6b00a3f8ddbc",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/templates/agent-example.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1841726,
+    "ast_hash": "d78735ac17c281c686ce82eb895af0c2",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/templates/agent-template.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1841784,
+    "ast_hash": "627fff86ba84842f1c6175f356d18f12",
+    "semantic_hash": ""
+  },
+  "skills_tool/vibe-coding-ai-rules-main/vibe-coding-rules_overview.md": {
+    "mtime": 1781144350.0,
+    "seen": 1790143480.1841843,
+    "ast_hash": "ee3d9c35fae91f2938838332b808928c",
     "semantic_hash": ""
   }
 }
