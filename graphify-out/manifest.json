@@ -844,5 +844,443 @@
     "seen": 1790147754.721102,
     "ast_hash": "26c60232e0a83a80d55814df1a747965",
     "semantic_hash": ""
+  },
+  "garuda_project/backend/package.json": {
+    "mtime": 1790148009.162917,
+    "seen": 1790148158.2469158,
+    "ast_hash": "de31d9d9578e2e996c8a652702aa1da5",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/config/db.ts": {
+    "mtime": 1790148009.3958118,
+    "seen": 1790148158.2469232,
+    "ast_hash": "1c740235d997cd0789cb7b18efeffc34",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/config/gemini.ts": {
+    "mtime": 1790148009.3958118,
+    "seen": 1790148158.2469273,
+    "ast_hash": "4c31e2148eaafedd1f7b3ddaace97450",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/controllers/ai.controller.ts": {
+    "mtime": 1790148009.3964753,
+    "seen": 1790148158.2469308,
+    "ast_hash": "f6752710518fbce19fd5fcbbfcc2247c",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/controllers/auth.controller.ts": {
+    "mtime": 1790148009.3963783,
+    "seen": 1790148158.2469344,
+    "ast_hash": "b09e94949a9690abf2deb20390824872",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/controllers/fleet.controller.ts": {
+    "mtime": 1790148009.3964753,
+    "seen": 1790148158.2469375,
+    "ast_hash": "d954b5f85c02f440a70143c01b62b72e",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/controllers/incident.controller.ts": {
+    "mtime": 1790148009.3964753,
+    "seen": 1790148158.2469413,
+    "ast_hash": "ea6d57eb24458642759098d9fd9e86f2",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/controllers/optimize.controller.ts": {
+    "mtime": 1790148009.3964753,
+    "seen": 1790148158.2469447,
+    "ast_hash": "f1d156a38964e0aefc9be123d9d909f6",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/controllers/orders.controller.ts": {
+    "mtime": 1790148009.3964753,
+    "seen": 1790148158.2469478,
+    "ast_hash": "0216c5d9803cc3501aae6de2684f6e8e",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/index.ts": {
+    "mtime": 1790148009.3975768,
+    "seen": 1790148158.2469509,
+    "ast_hash": "5df2c009550e765abe01bbde0d52d6ca",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/middleware/auth.middleware.ts": {
+    "mtime": 1790148009.3962271,
+    "seen": 1790148158.2469537,
+    "ast_hash": "ecd106b6e43324b47754a1c135a6a8dc",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/middleware/validate.middleware.ts": {
+    "mtime": 1790148009.3962271,
+    "seen": 1790148158.246957,
+    "ast_hash": "889b112fabf3d30e180726c88aa0f038",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/routes/ai.routes.ts": {
+    "mtime": 1790148009.3975768,
+    "seen": 1790148158.2469609,
+    "ast_hash": "9a9244853a44b0679083d24d114f72a3",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/routes/auth.routes.ts": {
+    "mtime": 1790148009.3968284,
+    "seen": 1790148158.2469642,
+    "ast_hash": "db51f51a2ff09ce920eaa8232b388afd",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/routes/fleet.routes.ts": {
+    "mtime": 1790148009.3968284,
+    "seen": 1790148158.2469673,
+    "ast_hash": "e954aa2b1f00efe7321c782b74a8bc41",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/routes/incident.routes.ts": {
+    "mtime": 1790148009.3974125,
+    "seen": 1790148158.2469704,
+    "ast_hash": "ab9627af4a61f1bbf7d73e96ea1b5c08",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/routes/optimize.routes.ts": {
+    "mtime": 1790148009.3974125,
+    "seen": 1790148158.2469735,
+    "ast_hash": "6b285ebb233dba3c933692ed5108a8c7",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/routes/orders.routes.ts": {
+    "mtime": 1790148009.3974125,
+    "seen": 1790148158.2469761,
+    "ast_hash": "ba56bac32709d9a05769fb11701714a2",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/services/cvrp-solver.ts": {
+    "mtime": 1790148009.3959694,
+    "seen": 1790148158.246979,
+    "ast_hash": "e7f6ba18b604b9b0172cf535f3544756",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/services/gemini.service.ts": {
+    "mtime": 1790148009.3959694,
+    "seen": 1790148158.2469819,
+    "ast_hash": "2289814273750132f54035f03d182ce8",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/services/mangalore-grid.ts": {
+    "mtime": 1790148009.3959694,
+    "seen": 1790148158.2469847,
+    "ast_hash": "54d67481ed8bf06c05594c114e8883a7",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/services/navigation.service.ts": {
+    "mtime": 1790148009.3959694,
+    "seen": 1790148158.2469876,
+    "ast_hash": "3d555b3cd14a3762ea6b13ed043aeaa9",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/tests/cvrp.test.ts": {
+    "mtime": 1790148009.397824,
+    "seen": 1790148158.2469904,
+    "ast_hash": "7b6778912882fd247ed480fea9895cae",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/src/types/index.ts": {
+    "mtime": 1790148009.3956785,
+    "seen": 1790148158.2469933,
+    "ast_hash": "6a646e84b21cedcc88e605ca1f43ebaa",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/tsconfig.json": {
+    "mtime": 1790148009.162917,
+    "seen": 1790148158.2469962,
+    "ast_hash": "42d078d08b9cb4de8a88e2e0ba988e76",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/package.json": {
+    "mtime": 1790148009.4010916,
+    "seen": 1790148158.246999,
+    "ast_hash": "a2e067f24cd758e4b8ef5cc95305777d",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/postcss.config.js": {
+    "mtime": 1790148009.4010916,
+    "seen": 1790148158.247002,
+    "ast_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/App.tsx": {
+    "mtime": 1790148009.4010916,
+    "seen": 1790148158.2470057,
+    "ast_hash": "73fc3a303eaff380039374681338b3d1",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/api/client.ts": {
+    "mtime": 1790148009.3998802,
+    "seen": 1790148158.2470093,
+    "ast_hash": "5c5da49f5aa4d8f7a96bd53603b783a0",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/components/dashboard/DispatcherHeader.tsx": {
+    "mtime": 1790148009.3999634,
+    "seen": 1790148158.2470124,
+    "ast_hash": "b7ef5d1af618b555a8f87af937e312f4",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/components/dashboard/EsgCarbonTicker.tsx": {
+    "mtime": 1790148009.3999634,
+    "seen": 1790148158.2470236,
+    "ast_hash": "79bbaff7d60a194a365030566ae99b06",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/components/dashboard/FleetDrawer.tsx": {
+    "mtime": 1790148009.3999634,
+    "seen": 1790148158.2470274,
+    "ast_hash": "e714498763ca925991a5a8b4904f8cc7",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/components/dashboard/GeminiAdvisorModal.tsx": {
+    "mtime": 1790148009.3999634,
+    "seen": 1790148158.2470315,
+    "ast_hash": "a1399aef753cec3da61edb60a253fdfe",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/components/dashboard/OrderQueuePanel.tsx": {
+    "mtime": 1790148009.3999634,
+    "seen": 1790148158.2470348,
+    "ast_hash": "017a63bd8abc71944316e571ab84a3a2",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/components/dashboard/ScenarioSimulatorToolbar.tsx": {
+    "mtime": 1790148009.3999634,
+    "seen": 1790148158.2470381,
+    "ast_hash": "3521fe2db33322c716d75c2a0efbcb75",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/components/driver/DynamicUpiQrModal.tsx": {
+    "mtime": 1790148009.4003289,
+    "seen": 1790148158.247042,
+    "ast_hash": "6236b7f7e7899a0449c489fcf33e6fbf",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/components/driver/EpodVerificationModal.tsx": {
+    "mtime": 1790148009.4003289,
+    "seen": 1790148158.2470448,
+    "ast_hash": "5f00fff21131f8822a06ae62257a481b",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/components/driver/TurnByTurnBanner.tsx": {
+    "mtime": 1790148009.4003289,
+    "seen": 1790148158.247048,
+    "ast_hash": "9a1e0e0fb962f4765d7e98457e22a0ac",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/components/map/MapboxCanvas.tsx": {
+    "mtime": 1790148009.400573,
+    "seen": 1790148158.2470512,
+    "ast_hash": "76fd04ad46b5653eef0221494d8bf96b",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/context/AuthContext.tsx": {
+    "mtime": 1790148009.4006755,
+    "seen": 1790148158.2470543,
+    "ast_hash": "661916052aab2f32537cb5b54a413a6f",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/context/DispatchContext.tsx": {
+    "mtime": 1790148009.4006755,
+    "seen": 1790148158.2470574,
+    "ast_hash": "f5868f25d9ce01a741d2659a415866a8",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/main.tsx": {
+    "mtime": 1790148009.4010916,
+    "seen": 1790148158.2470605,
+    "ast_hash": "aa122bdcf833a2c00fdf9ca8e5348675",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/pages/Dashboard.tsx": {
+    "mtime": 1790148009.400815,
+    "seen": 1790148158.2470639,
+    "ast_hash": "8858bf0cdbcd53b86682d901701c8597",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/pages/DriverPortal.tsx": {
+    "mtime": 1790148009.400815,
+    "seen": 1790148158.2470675,
+    "ast_hash": "0f3e9485fd7e6533c97feecbcdd82534",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/pages/Login.tsx": {
+    "mtime": 1790148009.400815,
+    "seen": 1790148158.2470708,
+    "ast_hash": "2d81eab088965a3258c225e676b5588e",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/pages/TrackingPage.tsx": {
+    "mtime": 1790148009.400815,
+    "seen": 1790148158.2470741,
+    "ast_hash": "8a46e7ac3cd88ec1ee10f1e19fc330c8",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/types/index.ts": {
+    "mtime": 1790148009.4010916,
+    "seen": 1790148158.2470775,
+    "ast_hash": "a2c1cdaccadb553836f78838b5101db9",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/src/vite-env.d.ts": {
+    "mtime": 1790148009.4010916,
+    "seen": 1790148158.24708,
+    "ast_hash": "abc883ee828aea1963e6147c3af81feb",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/tailwind.config.js": {
+    "mtime": 1790148009.4010916,
+    "seen": 1790148158.2470834,
+    "ast_hash": "422961a583560e2792e25e4bcc6b098b",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/tsconfig.json": {
+    "mtime": 1790148009.4010916,
+    "seen": 1790148158.2470863,
+    "ast_hash": "a6c6e2a99e443fb03ab42aad9c3c90fe",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/vite.config.ts": {
+    "mtime": 1790148009.4010916,
+    "seen": 1790148158.2470891,
+    "ast_hash": "3bb4035815cebe07af0a0aa6ea598e74",
+    "semantic_hash": ""
+  },
+  "garuda_project/package.json": {
+    "mtime": 1790148037.4397044,
+    "seen": 1790148158.2470918,
+    "ast_hash": "f2d168ea9596fe146394422f33d31476",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/rules/graphify.md": {
+    "mtime": 1790148009.9605038,
+    "seen": 1790148158.248693,
+    "ast_hash": "f1e53ecc9194573d3c28fc116c743a2e",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/rules/vibe-coding-rules.md": {
+    "mtime": 1790148009.9605038,
+    "seen": 1790148158.2486973,
+    "ast_hash": "1876f50c402a2301f515d3e6636a6172",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/skills/vibe-coding/SKILL.md": {
+    "mtime": 1790148009.960906,
+    "seen": 1790148158.2487075,
+    "ast_hash": "a3d0c014946cfb0be689c907afd8cb76",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/skills/vibe-coding/docs/api-design.md": {
+    "mtime": 1790148009.960906,
+    "seen": 1790148158.2487116,
+    "ast_hash": "e07e7f63ac7c3d3a9b2a3974bb0fc03c",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/skills/vibe-coding/docs/best-practices.md": {
+    "mtime": 1790148009.960906,
+    "seen": 1790148158.2487152,
+    "ast_hash": "eddb562cdae4d9939898f0727e591880",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/skills/vibe-coding/docs/error-handling.md": {
+    "mtime": 1790148009.960906,
+    "seen": 1790148158.2487185,
+    "ast_hash": "7fce9e3cb9ad9385746398c167645d17",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/skills/vibe-coding/docs/ide-comparison.md": {
+    "mtime": 1790148009.960906,
+    "seen": 1790148158.2487228,
+    "ast_hash": "a6d85fcc20b8a33fd87551c356942850",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/skills/vibe-coding/docs/logging-rules.md": {
+    "mtime": 1790148009.960906,
+    "seen": 1790148158.2487268,
+    "ast_hash": "5bfcf3fb2a20bc86d79c7443e89fec4c",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/skills/vibe-coding/docs/migration-guide.md": {
+    "mtime": 1790148009.960906,
+    "seen": 1790148158.24873,
+    "ast_hash": "8f3ccc40e3319e3770dd2e4797109b81",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/skills/vibe-coding/docs/performance-rules.md": {
+    "mtime": 1790148009.960906,
+    "seen": 1790148158.2487333,
+    "ast_hash": "0576d13ead493caa2cd87e1c5ccdb7b9",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/skills/vibe-coding/docs/security-rules.md": {
+    "mtime": 1790148009.960906,
+    "seen": 1790148158.248736,
+    "ast_hash": "4786b37ec5249bd17dc8d94c53782246",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/skills/vibe-coding/docs/testing-rules.md": {
+    "mtime": 1790148009.960906,
+    "seen": 1790148158.2487388,
+    "ast_hash": "787df88920d3c88dc8d57374c72d0ab5",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/skills/vibe-coding/docs/vibe-coding-overview.md": {
+    "mtime": 1790148009.960906,
+    "seen": 1790148158.2487416,
+    "ast_hash": "8bf1d6ede968e70bdcd9e50a23d663d0",
+    "semantic_hash": ""
+  },
+  "garuda_project/.agents/workflows/graphify.md": {
+    "mtime": 1790148009.960641,
+    "seen": 1790148158.2487445,
+    "ast_hash": "6d73634a678cf1e1c71930adf80bd1f0",
+    "semantic_hash": ""
+  },
+  "garuda_project/AGENTS.md": {
+    "mtime": 1790148009.9597864,
+    "seen": 1790148158.2487473,
+    "ast_hash": "b104c27060dc4788a9dbf87ace48df8a",
+    "semantic_hash": ""
+  },
+  "garuda_project/ARCHITECTURAL_SPEC.md": {
+    "mtime": 1790148009.9597864,
+    "seen": 1790148158.2487497,
+    "ast_hash": "b2db82fb12a2be0f9ad681d58ebc57dd",
+    "semantic_hash": ""
+  },
+  "garuda_project/GEMINI.md": {
+    "mtime": 1790148009.9597864,
+    "seen": 1790148158.248753,
+    "ast_hash": "b104c27060dc4788a9dbf87ace48df8a",
+    "semantic_hash": ""
+  },
+  "garuda_project/README.md": {
+    "mtime": 1790148009.9597864,
+    "seen": 1790148158.2487564,
+    "ast_hash": "395d518dd29313090797a2586838f9fc",
+    "semantic_hash": ""
+  },
+  "garuda_project/backend/supabase/README.md": {
+    "mtime": 1790148009.1603334,
+    "seen": 1790148158.248759,
+    "ast_hash": "896bf1c8686c1b5ba6e2b678ccae7d33",
+    "semantic_hash": ""
+  },
+  "garuda_project/frontend/index.html": {
+    "mtime": 1790148009.4018176,
+    "seen": 1790148158.2487621,
+    "ast_hash": "26c60232e0a83a80d55814df1a747965",
+    "semantic_hash": ""
+  },
+  "garuda_project/garuda_memory.md": {
+    "mtime": 1790148009.9597864,
+    "seen": 1790148158.2487648,
+    "ast_hash": "3eead905773fbeb4bc3caddc456ab957",
+    "semantic_hash": ""
   }
 }
