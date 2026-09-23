@@ -436,5 +436,89 @@
     "seen": 1790143480.1841843,
     "ast_hash": "ee3d9c35fae91f2938838332b808928c",
     "semantic_hash": ""
+  },
+  ".agents/rules/vibe-coding-rules.md": {
+    "mtime": 1790143841.0010092,
+    "seen": 1790143893.6593082,
+    "ast_hash": "1876f50c402a2301f515d3e6636a6172",
+    "semantic_hash": ""
+  },
+  ".agents/skills/vibe-coding/SKILL.md": {
+    "mtime": 1790143770.044105,
+    "seen": 1790143893.6593199,
+    "ast_hash": "a3d0c014946cfb0be689c907afd8cb76",
+    "semantic_hash": ""
+  },
+  ".agents/skills/vibe-coding/docs/api-design.md": {
+    "mtime": 1790143746.960811,
+    "seen": 1790143893.659327,
+    "ast_hash": "e07e7f63ac7c3d3a9b2a3974bb0fc03c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/vibe-coding/docs/best-practices.md": {
+    "mtime": 1790143746.960811,
+    "seen": 1790143893.6593335,
+    "ast_hash": "eddb562cdae4d9939898f0727e591880",
+    "semantic_hash": ""
+  },
+  ".agents/skills/vibe-coding/docs/error-handling.md": {
+    "mtime": 1790143746.960811,
+    "seen": 1790143893.6593394,
+    "ast_hash": "7fce9e3cb9ad9385746398c167645d17",
+    "semantic_hash": ""
+  },
+  ".agents/skills/vibe-coding/docs/ide-comparison.md": {
+    "mtime": 1790143746.960811,
+    "seen": 1790143893.6593451,
+    "ast_hash": "a6d85fcc20b8a33fd87551c356942850",
+    "semantic_hash": ""
+  },
+  ".agents/skills/vibe-coding/docs/logging-rules.md": {
+    "mtime": 1790143746.960811,
+    "seen": 1790143893.6593506,
+    "ast_hash": "5bfcf3fb2a20bc86d79c7443e89fec4c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/vibe-coding/docs/migration-guide.md": {
+    "mtime": 1790143746.960811,
+    "seen": 1790143893.6593556,
+    "ast_hash": "8f3ccc40e3319e3770dd2e4797109b81",
+    "semantic_hash": ""
+  },
+  ".agents/skills/vibe-coding/docs/performance-rules.md": {
+    "mtime": 1790143746.960811,
+    "seen": 1790143893.6593602,
+    "ast_hash": "0576d13ead493caa2cd87e1c5ccdb7b9",
+    "semantic_hash": ""
+  },
+  ".agents/skills/vibe-coding/docs/security-rules.md": {
+    "mtime": 1790143746.960811,
+    "seen": 1790143893.6593652,
+    "ast_hash": "4786b37ec5249bd17dc8d94c53782246",
+    "semantic_hash": ""
+  },
+  ".agents/skills/vibe-coding/docs/testing-rules.md": {
+    "mtime": 1790143746.960811,
+    "seen": 1790143893.6593702,
+    "ast_hash": "787df88920d3c88dc8d57374c72d0ab5",
+    "semantic_hash": ""
+  },
+  ".agents/skills/vibe-coding/docs/vibe-coding-overview.md": {
+    "mtime": 1790143746.960811,
+    "seen": 1790143893.659375,
+    "ast_hash": "8bf1d6ede968e70bdcd9e50a23d663d0",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1790143849.69912,
+    "seen": 1790143893.6593904,
+    "ast_hash": "7b310baa6f2a213caaa0e4bd9c5020d1",
+    "semantic_hash": ""
+  },
+  "GEMINI.md": {
+    "mtime": 1790143866.0493286,
+    "seen": 1790143893.6594036,
+    "ast_hash": "7b310baa6f2a213caaa0e4bd9c5020d1",
+    "semantic_hash": ""
   }
 }

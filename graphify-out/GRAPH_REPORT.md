@@ -1,17 +1,17 @@
 # Graph Report - Garuda_path  (2026-09-23)
 
 ## Corpus Check
-- 68 files · ~41,242 words
+- 82 files · ~58,545 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 21 file(s) not represented in the graph (top: (none) 11, .mdc 10)
 
 ## Summary
-- 892 nodes · 846 edges · 77 communities (72 shown, 5 thin omitted)
+- 1166 nodes · 1108 edges · 93 communities (87 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e51d39c8`
+- Built from commit: `2c34501a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -24,7 +24,7 @@
 - rules/graphify.md
 - workflows/graphify.md
 - [Project Name]
-- vibe-coding-ai-rules-main/README.md
+- Vibe Coding AI Rules
 - Security Rules for AI-Generated Code
 - Frontend Package Rules
 - Testing Rules for AI-Generated Code
@@ -93,18 +93,33 @@
 - Build and Development Commands
 - Safety and Permissions
 - symlink-setup.sh
+- How Each IDE Loads Rules
+- Security Rules for AI-Generated Code
+- Frontend Package Rules
+- Testing Rules for AI-Generated Code
+- API Design Conventions for AI-Generated Code
+- Performance Rules for AI-Generated Code
+- Error Handling Patterns for AI-Generated Code
+- Logging Standards for AI-Generated Code
+- Global AI Coding Rules for Agentic Coding
+- Core Engineering Rules (Vibe Coding Framework)
+- Core Engineering Rules (Vibe Coding Framework)
+- Core Rules & Principles
+- Claude Code Configuration Guide
+- Vibe Coding Rules in short
+- Vibe Coding Rules in short
 
 ## God Nodes (most connected - your core abstractions)
 1. `FocusFlow - AI-Powered Productivity Platform` - 17 edges
 2. `[Project Name]` - 16 edges
 3. `Global AI Coding Rules for Agentic Coding` - 14 edges
-4. `5. Real-World Failure Scenarios & Solutions` - 13 edges
-5. `Vibe Coding AI Rules` - 13 edges
-6. `FocusFlow - AI-Powered Productivity Platform` - 13 edges
-7. `API Design Conventions for AI-Generated Code` - 12 edges
-8. `Error Handling Patterns for AI-Generated Code` - 12 edges
-9. `Logging Standards for AI-Generated Code` - 12 edges
-10. `Workflow Standards` - 12 edges
+4. `Global AI Coding Rules for Agentic Coding` - 14 edges
+5. `5. Real-World Failure Scenarios & Solutions` - 13 edges
+6. `Vibe Coding AI Rules` - 13 edges
+7. `FocusFlow - AI-Powered Productivity Platform` - 13 edges
+8. `API Design Conventions for AI-Generated Code` - 12 edges
+9. `Error Handling Patterns for AI-Generated Code` - 12 edges
+10. `Logging Standards for AI-Generated Code` - 12 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -116,7 +131,7 @@
 - **Fleet Management Entities** — garuda_memory_hub, garuda_memory_vehicle, garuda_memory_delivery_stop [EXTRACTED 0.90]
 - **Routing Optimization Flow** — garuda_memory_optimization_core, garuda_memory_mapbox_engine, garuda_memory_dynamic_events [EXTRACTED 0.95]
 
-## Communities (77 total, 5 thin omitted)
+## Communities (93 total, 6 thin omitted)
 
 ### Community 0 - "Optimization Core"
 Cohesion: 0.25
@@ -134,9 +149,9 @@ Nodes (34): 1. Problem Statement & Real-World Logistics Friction, 2. Continuous 
 Cohesion: 0.04
 Nodes (47): Additional Resources, AGENTS.md - Universal AI Agent Configuration, Authentication & Authorization, Branch Naming, Build and Development Commands, Code Style and Conventions, Commit Messages, Common Gotchas (+39 more)
 
-### Community 8 - "vibe-coding-ai-rules-main/README.md"
-Cohesion: 0.06
-Nodes (29): Additional Optimizations, Code Quality & Structure, Coding Workflow, Deployment & Version Control, Documentation & Progress Tracking, Setup & AI Configuration, Vibe Coding Rules in short, Claude Code Configuration Guide (+21 more)
+### Community 8 - "Vibe Coding AI Rules"
+Cohesion: 0.15
+Nodes (13): Built by Obviousworks, Coming from the old Windsurf Global Rules?, Contributing, Core Principles, Customization, Deep Dives, IDE Support Matrix, License (+5 more)
 
 ### Community 9 - "Security Rules for AI-Generated Code"
 Cohesion: 0.06
@@ -223,7 +238,7 @@ Cohesion: 0.17
 Nodes (11): Changes, Commits, Communication, Context Management, Dependency Governance, Environment, Industry Standards, Self-Review Before Commit (+3 more)
 
 ### Community 30 - "OpenAI Codex Configuration Guide"
-Cohesion: 0.17
+Cohesion: 0.18
 Nodes (11): Configuration, Cross-IDE Compatibility, Discovery Order, Examples, File Format, File Structure, Global Defaults, OpenAI Codex Configuration Guide (+3 more)
 
 ### Community 31 - "Continue.dev Configuration Guide"
@@ -406,25 +421,85 @@ Nodes (3): Build and Development Commands, File-Scoped Commands (Preferred - Fas
 Cohesion: 0.67
 Nodes (3): Operations Allowed Without Prompting, Operations That Require Approval, Safety and Permissions
 
+### Community 77 - "How Each IDE Loads Rules"
+Cohesion: 0.05
+Nodes (39): AI IDE Comparison: Rules & Configuration, Aider, By Project Complexity, Claude Code, Cline, Continue.dev, Cross-IDE Compatibility, Cursor (+31 more)
+
+### Community 78 - "Security Rules for AI-Generated Code"
+Cohesion: 0.06
+Nodes (33): 1. Trust Nothing, Verify Everything, 2. Defense in Depth, 3. Principle of Least Privilege, API Key Security, Audit Logging, Authentication and Authorization, Authentication Requirements, Authorization Patterns (+25 more)
+
+### Community 79 - "Frontend Package Rules"
+Cohesion: 0.06
+Nodes (31): 1. Be Specific and Actionable, 2. Use Examples from Your Codebase, 3. Create Rule Hierarchies, 4. Tag Rules for Traceability, 5. Use Positive and Negative Examples, API Documentation, Architecture Decisions, Best Practices for Agentic Coding (+23 more)
+
+### Community 80 - "Testing Rules for AI-Generated Code"
+Cohesion: 0.07
+Nodes (27): 1. Test Behavior, Not Implementation, 1. Test Interdependencies, 2. AI Code Needs More Testing, Not Less, 2. Hardcoded Test Data, 3. Testing Implementation Details, 3. Tests as Documentation, 4. Sleeping in Tests, Anti-Patterns to Avoid (+19 more)
+
+### Community 81 - "API Design Conventions for AI-Generated Code"
+Cohesion: 0.08
+Nodes (24): 1. Consistency Over Creativity, 2. Client-First Design, 3. Backward Compatibility by Default, Anti-Patterns, API Design Conventions for AI-Generated Code, Authentication Patterns, Checklist for AI Agents, Client Errors (+16 more)
+
+### Community 82 - "Performance Rules for AI-Generated Code"
+Cohesion: 0.08
+Nodes (24): 1. Measure Before Optimizing, 2. Clarity First, Performance Second, 3. Think in Systems, Algorithm Complexity, API Response Times, Async and Concurrency, Backend Performance, Bundle Size Optimization (+16 more)
+
+### Community 83 - "Error Handling Patterns for AI-Generated Code"
+Cohesion: 0.11
+Nodes (17): 1. Fail Fast, Fail Explicitly, 2. Explicit Over Implicit, 3. No Silent Failures, Anti-Patterns, Async Error Handling, Circuit Breaker, Core Principles, Error Boundaries (+9 more)
+
+### Community 84 - "Logging Standards for AI-Generated Code"
+Cohesion: 0.12
+Nodes (15): 1. Structured Over Unstructured, 2. Leveled and Intentional, 3. Contextual and Traceable, Anti-Patterns, Core Principles, Correlation IDs: Request Tracing, Frontend Logging, Log Aggregation (+7 more)
+
+### Community 85 - "Global AI Coding Rules for Agentic Coding"
+Cohesion: 0.13
+Nodes (14): 0. Operating Modes, 10. Feature-Based Development Workflow, 11. Communication Protocol, 12. Tool & Environment Conventions, 1. Think Before Coding, 2. Simplicity First, 3. Surgical Changes, 4. Goal-Driven Execution (+6 more)
+
+### Community 86 - "Core Engineering Rules (Vibe Coding Framework)"
+Cohesion: 0.18
+Nodes (10): 1. Problem Clarity First (PCF) & Think Before Coding, 2. Simplicity First (SF) & Dependency Minimalism, 3. Surgical Changes (SC) & Atomic Edits, 4. Mandatory Quality Gates, 5. Security Guardrails, AGENTS.md — Garuda Path AI Rules & Development Standards, Core Engineering Rules (Vibe Coding Framework), Key Directories & Architecture (+2 more)
+
+### Community 87 - "Core Engineering Rules (Vibe Coding Framework)"
+Cohesion: 0.18
+Nodes (10): 1. Problem Clarity First (PCF) & Think Before Coding, 2. Simplicity First (SF) & Dependency Minimalism, 3. Surgical Changes (SC) & Atomic Edits, 4. Mandatory Quality Gates, 5. Security Guardrails, AGENTS.md — Garuda Path AI Rules & Development Standards, Core Engineering Rules (Vibe Coding Framework), Key Directories & Architecture (+2 more)
+
+### Community 88 - "Core Rules & Principles"
+Cohesion: 0.20
+Nodes (9): 1. Think Before Coding, 2. Simplicity First, 3. Surgical Changes, 4. Goal-Driven Execution, 5. Quality Gates (Mandatory Verification), 6. Security & Data Protection, Core Rules & Principles, Reference Documentation (+1 more)
+
+### Community 89 - "Claude Code Configuration Guide"
+Cohesion: 0.22
+Nodes (9): Claude Code Configuration Guide, Cross-IDE Compatibility, Examples, File Format, Hierarchy, Key Behavior, Overview, Setup (+1 more)
+
+### Community 90 - "Vibe Coding Rules in short"
+Cohesion: 0.25
+Nodes (7): Additional Optimizations, Code Quality & Structure, Coding Workflow, Deployment & Version Control, Documentation & Progress Tracking, Setup & AI Configuration, Vibe Coding Rules in short
+
+### Community 91 - "Vibe Coding Rules in short"
+Cohesion: 0.25
+Nodes (7): Additional Optimizations, Code Quality & Structure, Coding Workflow, Deployment & Version Control, Documentation & Progress Tracking, Setup & AI Configuration, Vibe Coding Rules in short
+
 ## Knowledge Gaps
-- **674 isolated node(s):** `symlink-setup.sh script`, `graphify`, `Workflow: graphify`, `📌 1. Problem Statement`, `🚀 2. Solution: Garuda Path` (+669 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 716 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **882 isolated node(s):** `symlink-setup.sh script`, `graphify`, `0. Operating Modes`, `1. Think Before Coding`, `2. Simplicity First` (+877 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 933 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Security Rules for AI-Generated Code` connect `Security Rules for AI-Generated Code` to `vibe-coding-ai-rules-main/README.md`?**
-  _High betweenness centrality (0.030) - this node is a cross-community bridge._
-- **Why does `API Design Conventions for AI-Generated Code` connect `API Design Conventions for AI-Generated Code` to `vibe-coding-ai-rules-main/README.md`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
-- **What connects `symlink-setup.sh script`, `graphify`, `Workflow: graphify` to the rest of the system?**
-  _674 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+- **What connects `symlink-setup.sh script`, `graphify`, `0. Operating Modes` to the rest of the system?**
+  _882 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `5. Real-World Failure Scenarios & Solutions` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `[Project Name]` be split into smaller, more focused modules?**
   _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
-- **Should `vibe-coding-ai-rules-main/README.md` be split into smaller, more focused modules?**
-  _Cohesion score 0.05873015873015873 - nodes in this community are weakly interconnected._
 - **Should `Security Rules for AI-Generated Code` be split into smaller, more focused modules?**
   _Cohesion score 0.06060606060606061 - nodes in this community are weakly interconnected._
+- **Should `Frontend Package Rules` be split into smaller, more focused modules?**
+  _Cohesion score 0.0625 - nodes in this community are weakly interconnected._
+- **Should `Testing Rules for AI-Generated Code` be split into smaller, more focused modules?**
+  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
